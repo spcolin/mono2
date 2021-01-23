@@ -1,0 +1,7 @@
+# ignore the ./datasets package
+datasets/
+
+# igore the saved models
+tools/outputs/
+
+
