@@ -61,22 +61,22 @@ class ModelLoss(object):
         super(ModelLoss, self).__init__()
         self.weight_cross_entropy_loss = WCEL_Loss()
         self.virtual_normal_loss = VNL_Loss(focal_x=cfg.DATASET.FOCAL_X, focal_y=cfg.DATASET.FOCAL_Y, input_size=cfg.DATASET.CROP_SIZE)
-        # self.rd_loss = RD_loss(4)
+        self.rd_loss = RD_loss(4)
 
     def criterion(self, pred_softmax, pred_logit, data, epoch):
         pred_depth = bins_to_depth(pred_softmax)
         loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
         loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
-        # rd_loss = self.rd_loss(pred_depth, data['B'].cuda())
+        rd_loss = self.rd_loss(pred_depth, data['B'].cuda())
 
 
         loss = {}
         loss['metric_loss'] = loss_metric
         loss['virtual_normal_loss'] = cfg.MODEL.DIFF_LOSS_WEIGHT * loss_normal
-        # loss['rd_loss']=rd_loss*50
+        loss['rd_loss']=rd_loss*50
 
-        loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']
-        # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
+        # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']
+        loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
 
         return loss
 

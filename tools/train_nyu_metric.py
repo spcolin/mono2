@@ -62,7 +62,7 @@ def train(train_dataloader, model, epoch, loss_func,
         if step % cfg.TRAIN.SNAPSHOT_ITERS == 0 and step != 0:
             save_ckpt(train_args, step, epoch, model, optimizer.optimizer, scheduler, val_err[0])
 
-        # break
+        break
 
 def val(val_dataloader, model):
     """
