@@ -95,6 +95,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
         return scaled_relative_depth_map
+        # return depth_res_map
 
     def compute_rd_bottom(self,t_tensor,b_tensor):
         """
@@ -108,6 +109,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
         return scaled_relative_depth_map
+        # return depth_res_map
 
     def compute_rd_left(self,l_tensor,r_tensor):
         """
@@ -121,6 +123,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
         return scaled_relative_depth_map
+        # return depth_res_map
 
     def compute_rd_right(self,l_tensor,r_tensor):
         """
@@ -134,6 +137,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
         return scaled_relative_depth_map
+        # return depth_res_map
 
     def compute_rd_left_top(self,l_t_tensor,b_r_tensor):
         """
@@ -147,6 +151,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
         return scaled_relative_depth_map
+        # return depth_res_map
 
     def compute_rd_right_top(self,r_t_tensor,b_l_tensor):
         """
@@ -160,6 +165,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth=depth_res_map/added_depth_map
 
         return scaled_relative_depth
+        # return depth_res_map
 
     def compute_rd_bottom_left(self,b_l_tensor,r_t_tensor):
         """
@@ -173,6 +179,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth=depth_res_map/added_depth_map
 
         return scaled_relative_depth
+        # return depth_res_map
 
     def compute_rd_bottom_right(self,b_r_tensor,l_t_tensor):
         """
@@ -186,6 +193,7 @@ class RD_loss2(nn.Module):
         scaled_relative_depth=depth_res_map/added_depth_map
 
         return scaled_relative_depth
+        # return depth_res_map
 
     def compute_rd_map_list(self,depth_tensor):
         """
@@ -232,10 +240,17 @@ class RD_loss2(nn.Module):
         :return: difference of relative depth map between pred and gt
         """
 
-        pred_rd_list=self.compute_rd_map_list(pred)
-        gt_rd_list=self.compute_rd_map_list(gt)
+        mean_pred = pred.mean(2, True).mean(3, True)
+        mean_dt = gt.mean(2, True).mean(3, True)
+        norm_pred = pred / mean_pred
+        norm_gt = gt / mean_dt
 
-        loss_fn=torch.nn.L1Loss(reduction='mean')
+        pred_rd_list = self.compute_rd_map_list(norm_pred)
+        gt_rd_list = self.compute_rd_map_list(norm_gt)
+
+        loss_fn = torch.nn.L1Loss(reduction='mean')
+        # loss_fn=torch.nn.SmoothL1Loss(reduction='mean')
+        # loss_fn=torch.nn.MSELoss(reduction='mean')
         loss=0
         for i in range(len(pred_rd_list)):
             loss=loss+loss_fn(pred_rd_list[i],gt_rd_list[i])

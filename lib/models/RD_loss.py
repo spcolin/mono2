@@ -281,10 +281,18 @@ class RD_loss(nn.Module):
 
         range_list=np.random.randint(1,self.range+1,size=8)
 
-        pred_rd_list=self.compute_rd_map_list(pred,range_list)
-        gt_rd_list=self.compute_rd_map_list(gt,range_list)
+        mean_pred=pred.mean(2,True).mean(3,True)
+        mean_dt=gt.mean(2,True).mean(3,True)
+        norm_pred=pred/mean_pred
+        norm_gt=gt/mean_dt
+
+        pred_rd_list=self.compute_rd_map_list(norm_pred,range_list)
+        gt_rd_list=self.compute_rd_map_list(norm_gt,range_list)
 
         loss_fn=torch.nn.L1Loss(reduction='mean')
+        # loss_fn=torch.nn.SmoothL1Loss(reduction='mean')
+        # loss_fn=torch.nn.MSELoss(reduction='mean')
+
         loss=0
         for i in range(len(pred_rd_list)):
             loss=loss+loss_fn(pred_rd_list[i],gt_rd_list[i])
