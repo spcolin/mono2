@@ -279,7 +279,9 @@ class RD_loss(nn.Module):
         :return: difference of relative depth map between pred and gt
         """
 
-        range_list=np.random.randint(1,self.range+1,size=8)
+        # range_list=np.random.randint(1,self.range+1,size=8)
+
+        range_list=[30]*8
 
         mean_pred=pred.mean(2,True).mean(3,True)
         mean_dt=gt.mean(2,True).mean(3,True)

@@ -90,12 +90,12 @@ class RD_loss2(nn.Module):
         :param t_tensor: top tensor,B*1*(H-1)*W
         :return: the relative depth map between position[x,y] and position[x,y-1]
         """
-        depth_res_map=b_tensor-t_tensor
+        depth_res_map=torch.abs(b_tensor-t_tensor)
         added_depth_map=b_tensor+t_tensor
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
-        return scaled_relative_depth_map
-        # return depth_res_map
+        # return scaled_relative_depth_map
+        return depth_res_map
 
     def compute_rd_bottom(self,t_tensor,b_tensor):
         """
@@ -104,12 +104,12 @@ class RD_loss2(nn.Module):
         :param b_tensor: bottom tensor,B*1*(H-1)*W
         :return: the relative depth map between position[x,y] and position[x,y+1]
         """
-        depth_res_map=t_tensor-b_tensor
+        depth_res_map=torch.abs(t_tensor-b_tensor)
         added_depth_map=t_tensor+b_tensor
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
-        return scaled_relative_depth_map
-        # return depth_res_map
+        # return scaled_relative_depth_map
+        return depth_res_map
 
     def compute_rd_left(self,l_tensor,r_tensor):
         """
@@ -118,12 +118,12 @@ class RD_loss2(nn.Module):
         :param r_tensor: right tensor,B*1*H*(W-1)
         :return: the relative depth map between position[x,y] and position[x-1,y]
         """
-        depth_res_map=r_tensor-l_tensor
+        depth_res_map=torch.abs(r_tensor-l_tensor)
         added_depth_map=r_tensor+l_tensor
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
-        return scaled_relative_depth_map
-        # return depth_res_map
+        # return scaled_relative_depth_map
+        return depth_res_map
 
     def compute_rd_right(self,l_tensor,r_tensor):
         """
@@ -132,12 +132,12 @@ class RD_loss2(nn.Module):
         :param r_tensor: right tensor,B*1*H*(W-1)
         :return: the relative depth map between position[x,y] and position[x+1,y]
         """
-        depth_res_map=l_tensor-r_tensor
+        depth_res_map=torch.abs(l_tensor-r_tensor)
         added_depth_map=l_tensor+r_tensor
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
-        return scaled_relative_depth_map
-        # return depth_res_map
+        # return scaled_relative_depth_map
+        return depth_res_map
 
     def compute_rd_left_top(self,l_t_tensor,b_r_tensor):
         """
@@ -146,12 +146,12 @@ class RD_loss2(nn.Module):
         :param b_r_tensor: bottom right tensor,B*1*(H-1)*(W-1)
         :return: the relative depth map between position[x,y] and position[x-1,y-1]
         """
-        depth_res_map=b_r_tensor-l_t_tensor
+        depth_res_map=torch.abs(b_r_tensor-l_t_tensor)
         added_depth_map=b_r_tensor+l_t_tensor
         scaled_relative_depth_map=depth_res_map/added_depth_map
 
-        return scaled_relative_depth_map
-        # return depth_res_map
+        # return scaled_relative_depth_map
+        return depth_res_map
 
     def compute_rd_right_top(self,r_t_tensor,b_l_tensor):
         """
@@ -160,12 +160,12 @@ class RD_loss2(nn.Module):
         :param b_l_tensor: bottom left tensor,B*1*(H-1)*(W-1)
         :return: the relative depth map between position[x,y] and position[x+1,y-1]
         """
-        depth_res_map=b_l_tensor-r_t_tensor
+        depth_res_map=torch.abs(b_l_tensor-r_t_tensor)
         added_depth_map=r_t_tensor+b_l_tensor
         scaled_relative_depth=depth_res_map/added_depth_map
 
-        return scaled_relative_depth
-        # return depth_res_map
+        # return scaled_relative_depth
+        return depth_res_map
 
     def compute_rd_bottom_left(self,b_l_tensor,r_t_tensor):
         """
@@ -174,12 +174,12 @@ class RD_loss2(nn.Module):
         :param r_t_tensor: right top tensor,B*1*(H-1)*(W-1)
         :return: the relative depth map between position[x,y] and position[x-1,y+1]
         """
-        depth_res_map=r_t_tensor-b_l_tensor
+        depth_res_map=torch.abs(r_t_tensor-b_l_tensor)
         added_depth_map=r_t_tensor+b_l_tensor
         scaled_relative_depth=depth_res_map/added_depth_map
 
-        return scaled_relative_depth
-        # return depth_res_map
+        # return scaled_relative_depth
+        return depth_res_map
 
     def compute_rd_bottom_right(self,b_r_tensor,l_t_tensor):
         """
@@ -188,12 +188,12 @@ class RD_loss2(nn.Module):
         :param l_t_tensor: left top tensor,B*1*(H-1)*(W-1)
         :return: the relative depth map between position[x,y] and position[x+1,y+1]
         """
-        depth_res_map=l_t_tensor-b_r_tensor
+        depth_res_map=torch.abs(l_t_tensor-b_r_tensor)
         added_depth_map=l_t_tensor+b_r_tensor
         scaled_relative_depth=depth_res_map/added_depth_map
 
-        return scaled_relative_depth
-        # return depth_res_map
+        # return scaled_relative_depth
+        return depth_res_map
 
     def compute_rd_map_list(self,depth_tensor):
         """
