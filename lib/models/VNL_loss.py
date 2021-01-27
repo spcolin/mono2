@@ -175,7 +175,9 @@ class VNL_Loss(nn.Module):
         gt_normal = gt_normal / gt_norm
         dt_normal = dt_normal / dt_norm
         loss = torch.abs(gt_normal - dt_normal)
+        # print(loss.shape)
         loss = torch.sum(torch.sum(loss, dim=2), dim=0)
+        # print(loss.shape)
         if select:
             loss, indices = torch.sort(loss, dim=0, descending=False)
             loss = loss[int(loss.size(0) * 0.25):]
