@@ -12,6 +12,7 @@ from lib.models.RD_loss2 import RD_loss2
 from lib.models.RD_loss3 import RD_loss3
 from lib.models.RD_loss4 import RD_loss4
 from lib.models.RD_loss5 import RD_loss5
+from lib.models.RD_loss6 import RD_loss6
 
 
 class MetricDepthModel(nn.Module):
@@ -69,7 +70,8 @@ class ModelLoss(object):
         # self.rd_loss=RD_loss2()
         # self.rd_loss=RD_loss4(4)
         # self.rd_loss=RD_loss3()
-        self.rd_loss=RD_loss5()
+        # self.rd_loss=RD_loss5()
+        self.rd_loss=RD_loss6()
 
     def criterion(self, pred_softmax, pred_logit, data, epoch):
         pred_depth = bins_to_depth(pred_softmax)
@@ -78,10 +80,11 @@ class ModelLoss(object):
         rd_loss=self.rd_loss(pred_depth,data['B'].cuda())
 
         loss = {}
-        loss['metric_loss'] = loss_metric
+        loss['metric_loss'] = loss_metric*2
         loss['virtual_normal_loss'] = cfg.MODEL.DIFF_LOSS_WEIGHT * loss_normal
         loss['rd_loss']=rd_loss*10
 
+        # loss['total_loss'] = loss['metric_loss']
         # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']
         loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
 

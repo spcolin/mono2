@@ -4890,3 +4890,1687 @@
 		loss: 6.511,    time: 3.264423,    eta: 0:00:00
 		metric_loss: 2.829, 		virtual_normal_loss: 1.073, 		rd_loss: 2.534, 		abs_rel: 0.000000, 
 		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 14.108,    time: 3.323004,    eta: 0:21:35
+		metric_loss: 5.212, 		virtual_normal_loss: 5.019, 		rd_loss: 3.780, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 13.398,    time: 3.278179,    eta: 0:20:45
+		metric_loss: 4.939, 		virtual_normal_loss: 4.747, 		rd_loss: 3.604, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 11.477,    time: 3.259455,    eta: 0:20:05
+		metric_loss: 4.485, 		virtual_normal_loss: 3.286, 		rd_loss: 3.395, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 10.543,    time: 3.256122,    eta: 0:19:32
+		metric_loss: 4.122, 		virtual_normal_loss: 3.105, 		rd_loss: 3.247, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.002,    time: 3.250803,    eta: 0:18:57
+		metric_loss: 3.917, 		virtual_normal_loss: 2.998, 		rd_loss: 3.131, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.614,    time: 3.250045,    eta: 0:18:25
+		metric_loss: 3.816, 		virtual_normal_loss: 2.630, 		rd_loss: 3.006, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.163,    time: 3.248379,    eta: 0:17:51
+		metric_loss: 3.699, 		virtual_normal_loss: 2.507, 		rd_loss: 2.989, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.055,    time: 3.248987,    eta: 0:17:19
+		metric_loss: 3.651, 		virtual_normal_loss: 2.448, 		rd_loss: 2.887, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.737,    time: 3.248117,    eta: 0:16:46
+		metric_loss: 3.498, 		virtual_normal_loss: 2.383, 		rd_loss: 2.846, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.640,    time: 3.247408,    eta: 0:16:14
+		metric_loss: 3.425, 		virtual_normal_loss: 2.221, 		rd_loss: 2.805, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.164,    time: 3.247530,    eta: 0:15:41
+		metric_loss: 3.324, 		virtual_normal_loss: 2.022, 		rd_loss: 2.778, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.106,    time: 3.246481,    eta: 0:15:09
+		metric_loss: 3.388, 		virtual_normal_loss: 1.904, 		rd_loss: 2.737, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.140,    time: 3.246174,    eta: 0:14:36
+		metric_loss: 3.451, 		virtual_normal_loss: 1.878, 		rd_loss: 2.729, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.677,    time: 3.247144,    eta: 0:14:04
+		metric_loss: 3.244, 		virtual_normal_loss: 1.732, 		rd_loss: 2.675, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.664,    time: 3.246995,    eta: 0:13:31
+		metric_loss: 3.164, 		virtual_normal_loss: 1.767, 		rd_loss: 2.733, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.717,    time: 3.246481,    eta: 0:12:59
+		metric_loss: 3.147, 		virtual_normal_loss: 1.807, 		rd_loss: 2.762, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.710,    time: 3.246267,    eta: 0:12:26
+		metric_loss: 3.113, 		virtual_normal_loss: 1.866, 		rd_loss: 2.753, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.586,    time: 3.247499,    eta: 0:11:54
+		metric_loss: 3.139, 		virtual_normal_loss: 1.804, 		rd_loss: 2.653, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.413,    time: 3.247134,    eta: 0:11:21
+		metric_loss: 3.142, 		virtual_normal_loss: 1.717, 		rd_loss: 2.614, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.389,    time: 3.246761,    eta: 0:10:49
+		metric_loss: 3.142, 		virtual_normal_loss: 1.547, 		rd_loss: 2.589, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.410,    time: 3.246358,    eta: 0:10:16
+		metric_loss: 3.175, 		virtual_normal_loss: 1.556, 		rd_loss: 2.629, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.506,    time: 3.246050,    eta: 0:09:44
+		metric_loss: 3.180, 		virtual_normal_loss: 1.727, 		rd_loss: 2.635, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.561,    time: 3.245932,    eta: 0:09:11
+		metric_loss: 3.073, 		virtual_normal_loss: 1.662, 		rd_loss: 2.627, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.398,    time: 3.245968,    eta: 0:08:39
+		metric_loss: 2.999, 		virtual_normal_loss: 1.600, 		rd_loss: 2.660, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.026,    time: 3.245999,    eta: 0:08:06
+		metric_loss: 2.976, 		virtual_normal_loss: 1.421, 		rd_loss: 2.617, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.196,    time: 3.245789,    eta: 0:07:34
+		metric_loss: 3.003, 		virtual_normal_loss: 1.437, 		rd_loss: 2.617, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.504,    time: 3.245985,    eta: 0:07:01
+		metric_loss: 3.068, 		virtual_normal_loss: 1.646, 		rd_loss: 2.686, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.118,    time: 3.245798,    eta: 0:06:29
+		metric_loss: 3.056, 		virtual_normal_loss: 1.450, 		rd_loss: 2.568, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.927,    time: 3.246716,    eta: 0:05:57
+		metric_loss: 2.976, 		virtual_normal_loss: 1.310, 		rd_loss: 2.555, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.939,    time: 3.247360,    eta: 0:05:24
+		metric_loss: 2.943, 		virtual_normal_loss: 1.407, 		rd_loss: 2.595, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.705,    time: 3.247994,    eta: 0:04:52
+		metric_loss: 2.951, 		virtual_normal_loss: 1.279, 		rd_loss: 2.529, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.682,    time: 3.248866,    eta: 0:04:19
+		metric_loss: 2.977, 		virtual_normal_loss: 1.218, 		rd_loss: 2.548, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.883,    time: 3.248874,    eta: 0:03:47
+		metric_loss: 2.958, 		virtual_normal_loss: 1.317, 		rd_loss: 2.601, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.860,    time: 3.249291,    eta: 0:03:14
+		metric_loss: 3.006, 		virtual_normal_loss: 1.277, 		rd_loss: 2.610, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.874,    time: 3.250289,    eta: 0:02:42
+		metric_loss: 3.008, 		virtual_normal_loss: 1.277, 		rd_loss: 2.581, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.739,    time: 3.250369,    eta: 0:02:10
+		metric_loss: 2.935, 		virtual_normal_loss: 1.211, 		rd_loss: 2.492, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.720,    time: 3.250665,    eta: 0:01:37
+		metric_loss: 2.866, 		virtual_normal_loss: 1.206, 		rd_loss: 2.516, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.730,    time: 3.251253,    eta: 0:01:05
+		metric_loss: 2.899, 		virtual_normal_loss: 1.223, 		rd_loss: 2.510, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.467,    time: 3.251187,    eta: 0:00:32
+		metric_loss: 2.827, 		virtual_normal_loss: 1.060, 		rd_loss: 2.495, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.555,    time: 3.251158,    eta: 0:00:00
+		metric_loss: 2.954, 		virtual_normal_loss: 1.135, 		rd_loss: 2.536, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 14.100,    time: 4.484688,    eta: 0:29:09
+		metric_loss: 5.307, 		virtual_normal_loss: 5.961, 		rd_loss: 2.791, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.702,    time: 4.419939,    eta: 0:27:59
+		metric_loss: 4.709, 		virtual_normal_loss: 5.101, 		rd_loss: 2.543, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 10.213,    time: 4.410646,    eta: 0:27:11
+		metric_loss: 4.401, 		virtual_normal_loss: 3.271, 		rd_loss: 2.260, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 9.083,    time: 4.408985,    eta: 0:26:27
+		metric_loss: 4.134, 		virtual_normal_loss: 2.784, 		rd_loss: 2.062, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 8.793,    time: 4.403367,    eta: 0:25:41
+		metric_loss: 3.912, 		virtual_normal_loss: 2.727, 		rd_loss: 1.935, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 8.147,    time: 4.392122,    eta: 0:24:53
+		metric_loss: 3.697, 		virtual_normal_loss: 2.676, 		rd_loss: 1.808, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 7.528,    time: 4.393219,    eta: 0:24:09
+		metric_loss: 3.534, 		virtual_normal_loss: 2.263, 		rd_loss: 1.649, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 7.438,    time: 4.387327,    eta: 0:23:23
+		metric_loss: 3.483, 		virtual_normal_loss: 2.178, 		rd_loss: 1.544, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.968,    time: 4.379486,    eta: 0:22:37
+		metric_loss: 3.311, 		virtual_normal_loss: 2.075, 		rd_loss: 1.523, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.850,    time: 4.372620,    eta: 0:21:51
+		metric_loss: 3.283, 		virtual_normal_loss: 2.059, 		rd_loss: 1.517, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.752,    time: 4.368004,    eta: 0:21:06
+		metric_loss: 3.256, 		virtual_normal_loss: 2.006, 		rd_loss: 1.469, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.461,    time: 4.364167,    eta: 0:20:21
+		metric_loss: 3.188, 		virtual_normal_loss: 1.862, 		rd_loss: 1.419, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 6.401,    time: 4.359184,    eta: 0:19:36
+		metric_loss: 3.243, 		virtual_normal_loss: 1.821, 		rd_loss: 1.341, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 6.358,    time: 4.361824,    eta: 0:18:54
+		metric_loss: 3.189, 		virtual_normal_loss: 1.806, 		rd_loss: 1.348, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 6.257,    time: 4.362980,    eta: 0:18:10
+		metric_loss: 3.127, 		virtual_normal_loss: 1.683, 		rd_loss: 1.301, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 6.166,    time: 4.366863,    eta: 0:17:28
+		metric_loss: 3.204, 		virtual_normal_loss: 1.605, 		rd_loss: 1.265, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 6.285,    time: 4.367638,    eta: 0:16:44
+		metric_loss: 3.244, 		virtual_normal_loss: 1.843, 		rd_loss: 1.292, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 6.084,    time: 4.368575,    eta: 0:16:01
+		metric_loss: 3.070, 		virtual_normal_loss: 1.728, 		rd_loss: 1.244, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 5.935,    time: 4.368627,    eta: 0:15:17
+		metric_loss: 2.987, 		virtual_normal_loss: 1.597, 		rd_loss: 1.246, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 5.879,    time: 4.369234,    eta: 0:14:33
+		metric_loss: 2.996, 		virtual_normal_loss: 1.473, 		rd_loss: 1.235, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.772,    time: 4.372221,    eta: 0:13:50
+		metric_loss: 2.980, 		virtual_normal_loss: 1.438, 		rd_loss: 1.262, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.793,    time: 4.374767,    eta: 0:13:07
+		metric_loss: 3.030, 		virtual_normal_loss: 1.436, 		rd_loss: 1.239, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.760,    time: 4.374374,    eta: 0:12:23
+		metric_loss: 3.141, 		virtual_normal_loss: 1.395, 		rd_loss: 1.097, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.560,    time: 4.375780,    eta: 0:11:40
+		metric_loss: 2.962, 		virtual_normal_loss: 1.473, 		rd_loss: 1.037, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.769,    time: 4.377801,    eta: 0:10:56
+		metric_loss: 3.009, 		virtual_normal_loss: 1.503, 		rd_loss: 1.140, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.781,    time: 4.378734,    eta: 0:10:13
+		metric_loss: 3.061, 		virtual_normal_loss: 1.356, 		rd_loss: 1.165, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.445,    time: 4.379558,    eta: 0:09:29
+		metric_loss: 2.987, 		virtual_normal_loss: 1.311, 		rd_loss: 1.083, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.396,    time: 4.381789,    eta: 0:08:45
+		metric_loss: 2.967, 		virtual_normal_loss: 1.245, 		rd_loss: 1.062, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.511,    time: 4.381058,    eta: 0:08:01
+		metric_loss: 3.033, 		virtual_normal_loss: 1.271, 		rd_loss: 1.093, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.588,    time: 4.378668,    eta: 0:07:17
+		metric_loss: 3.044, 		virtual_normal_loss: 1.310, 		rd_loss: 1.112, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.485,    time: 4.377580,    eta: 0:06:33
+		metric_loss: 2.995, 		virtual_normal_loss: 1.291, 		rd_loss: 1.107, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.267,    time: 4.376119,    eta: 0:05:50
+		metric_loss: 2.995, 		virtual_normal_loss: 1.188, 		rd_loss: 1.039, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.347,    time: 4.374468,    eta: 0:05:06
+		metric_loss: 2.899, 		virtual_normal_loss: 1.335, 		rd_loss: 1.057, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.119,    time: 4.372118,    eta: 0:04:22
+		metric_loss: 2.871, 		virtual_normal_loss: 1.198, 		rd_loss: 1.057, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 4.977,    time: 4.369802,    eta: 0:03:38
+		metric_loss: 2.896, 		virtual_normal_loss: 1.014, 		rd_loss: 0.971, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.185,    time: 4.370487,    eta: 0:02:54
+		metric_loss: 2.853, 		virtual_normal_loss: 1.117, 		rd_loss: 1.051, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.211,    time: 4.369752,    eta: 0:02:11
+		metric_loss: 2.853, 		virtual_normal_loss: 1.181, 		rd_loss: 1.099, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.331,    time: 4.368701,    eta: 0:01:27
+		metric_loss: 2.972, 		virtual_normal_loss: 1.059, 		rd_loss: 1.046, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.129,    time: 4.367604,    eta: 0:00:43
+		metric_loss: 2.973, 		virtual_normal_loss: 1.043, 		rd_loss: 1.039, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.071,    time: 4.367486,    eta: 0:00:00
+		metric_loss: 2.940, 		virtual_normal_loss: 1.040, 		rd_loss: 0.963, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 10.100,    time: 1.187321,    eta: 0:07:43
+		metric_loss: 5.043, 		virtual_normal_loss: 5.220, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 9.513,    time: 1.151507,    eta: 0:07:17
+		metric_loss: 4.593, 		virtual_normal_loss: 4.755, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 7.437,    time: 1.139432,    eta: 0:07:01
+		metric_loss: 4.081, 		virtual_normal_loss: 3.490, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 6.736,    time: 1.132943,    eta: 0:06:47
+		metric_loss: 3.825, 		virtual_normal_loss: 2.904, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 6.435,    time: 1.127399,    eta: 0:06:34
+		metric_loss: 3.644, 		virtual_normal_loss: 2.743, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 6.149,    time: 1.129439,    eta: 0:06:24
+		metric_loss: 3.551, 		virtual_normal_loss: 2.555, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 5.892,    time: 1.127003,    eta: 0:06:11
+		metric_loss: 3.443, 		virtual_normal_loss: 2.402, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 5.587,    time: 1.125247,    eta: 0:06:00
+		metric_loss: 3.432, 		virtual_normal_loss: 2.186, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 5.527,    time: 1.124535,    eta: 0:05:48
+		metric_loss: 3.403, 		virtual_normal_loss: 2.115, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 5.285,    time: 1.125196,    eta: 0:05:37
+		metric_loss: 3.260, 		virtual_normal_loss: 2.070, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 5.119,    time: 1.123702,    eta: 0:05:25
+		metric_loss: 3.149, 		virtual_normal_loss: 2.015, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 5.238,    time: 1.122238,    eta: 0:05:14
+		metric_loss: 3.124, 		virtual_normal_loss: 2.067, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 5.419,    time: 1.121174,    eta: 0:05:02
+		metric_loss: 3.377, 		virtual_normal_loss: 2.227, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 5.181,    time: 1.120002,    eta: 0:04:51
+		metric_loss: 3.110, 		virtual_normal_loss: 2.063, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 5.154,    time: 1.119343,    eta: 0:04:39
+		metric_loss: 3.068, 		virtual_normal_loss: 1.996, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 5.121,    time: 1.118483,    eta: 0:04:28
+		metric_loss: 3.093, 		virtual_normal_loss: 1.852, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 4.981,    time: 1.117520,    eta: 0:04:17
+		metric_loss: 3.252, 		virtual_normal_loss: 1.677, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 4.848,    time: 1.116926,    eta: 0:04:05
+		metric_loss: 3.214, 		virtual_normal_loss: 1.635, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 4.808,    time: 1.116375,    eta: 0:03:54
+		metric_loss: 3.129, 		virtual_normal_loss: 1.632, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 4.852,    time: 1.115911,    eta: 0:03:43
+		metric_loss: 3.132, 		virtual_normal_loss: 1.664, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 4.745,    time: 1.116273,    eta: 0:03:32
+		metric_loss: 3.049, 		virtual_normal_loss: 1.696, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 4.653,    time: 1.117252,    eta: 0:03:21
+		metric_loss: 3.000, 		virtual_normal_loss: 1.618, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 4.640,    time: 1.118114,    eta: 0:03:10
+		metric_loss: 3.091, 		virtual_normal_loss: 1.573, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 4.627,    time: 1.118423,    eta: 0:02:58
+		metric_loss: 3.067, 		virtual_normal_loss: 1.552, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 4.520,    time: 1.118849,    eta: 0:02:47
+		metric_loss: 2.982, 		virtual_normal_loss: 1.552, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 4.501,    time: 1.119656,    eta: 0:02:36
+		metric_loss: 3.004, 		virtual_normal_loss: 1.460, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 4.309,    time: 1.119835,    eta: 0:02:25
+		metric_loss: 2.965, 		virtual_normal_loss: 1.378, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 4.237,    time: 1.120120,    eta: 0:02:14
+		metric_loss: 2.868, 		virtual_normal_loss: 1.309, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 4.284,    time: 1.120074,    eta: 0:02:03
+		metric_loss: 2.997, 		virtual_normal_loss: 1.338, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 4.380,    time: 1.119760,    eta: 0:01:51
+		metric_loss: 2.997, 		virtual_normal_loss: 1.320, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 4.014,    time: 1.120016,    eta: 0:01:40
+		metric_loss: 2.833, 		virtual_normal_loss: 1.219, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 4.070,    time: 1.120758,    eta: 0:01:29
+		metric_loss: 2.860, 		virtual_normal_loss: 1.228, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 4.110,    time: 1.121091,    eta: 0:01:18
+		metric_loss: 2.886, 		virtual_normal_loss: 1.263, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 4.003,    time: 1.121352,    eta: 0:01:07
+		metric_loss: 2.806, 		virtual_normal_loss: 1.213, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 4.034,    time: 1.121681,    eta: 0:00:56
+		metric_loss: 2.806, 		virtual_normal_loss: 1.226, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 4.280,    time: 1.121741,    eta: 0:00:44
+		metric_loss: 2.827, 		virtual_normal_loss: 1.343, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 4.101,    time: 1.121480,    eta: 0:00:33
+		metric_loss: 2.782, 		virtual_normal_loss: 1.279, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 4.189,    time: 1.121612,    eta: 0:00:22
+		metric_loss: 2.979, 		virtual_normal_loss: 1.291, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 4.221,    time: 1.121695,    eta: 0:00:11
+		metric_loss: 3.019, 		virtual_normal_loss: 1.217, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 4.091,    time: 1.121862,    eta: 0:00:00
+		metric_loss: 2.903, 		virtual_normal_loss: 1.163, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 15.233,    time: 1.166633,    eta: 0:07:34
+		metric_loss: 10.071, 		virtual_normal_loss: 5.094, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 13.710,    time: 1.126639,    eta: 0:07:08
+		metric_loss: 8.973, 		virtual_normal_loss: 4.449, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 11.428,    time: 1.113408,    eta: 0:06:51
+		metric_loss: 8.181, 		virtual_normal_loss: 3.194, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 9.988,    time: 1.106983,    eta: 0:06:38
+		metric_loss: 7.213, 		virtual_normal_loss: 2.825, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.464,    time: 1.108469,    eta: 0:06:27
+		metric_loss: 6.849, 		virtual_normal_loss: 2.659, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.584,    time: 1.107706,    eta: 0:06:16
+		metric_loss: 6.897, 		virtual_normal_loss: 2.669, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.644,    time: 1.105869,    eta: 0:06:04
+		metric_loss: 7.022, 		virtual_normal_loss: 2.616, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.009,    time: 1.105289,    eta: 0:05:53
+		metric_loss: 6.590, 		virtual_normal_loss: 2.541, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.798,    time: 1.106657,    eta: 0:05:43
+		metric_loss: 6.380, 		virtual_normal_loss: 2.375, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.687,    time: 1.108874,    eta: 0:05:32
+		metric_loss: 6.402, 		virtual_normal_loss: 2.291, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.560,    time: 1.110047,    eta: 0:05:21
+		metric_loss: 6.177, 		virtual_normal_loss: 2.238, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.277,    time: 1.110448,    eta: 0:05:10
+		metric_loss: 6.172, 		virtual_normal_loss: 2.186, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.549,    time: 1.112194,    eta: 0:05:00
+		metric_loss: 6.277, 		virtual_normal_loss: 2.155, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.397,    time: 1.112563,    eta: 0:04:49
+		metric_loss: 6.060, 		virtual_normal_loss: 2.079, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.949,    time: 1.112767,    eta: 0:04:38
+		metric_loss: 5.961, 		virtual_normal_loss: 1.939, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.833,    time: 1.112503,    eta: 0:04:27
+		metric_loss: 5.948, 		virtual_normal_loss: 1.934, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.820,    time: 1.113134,    eta: 0:04:16
+		metric_loss: 5.897, 		virtual_normal_loss: 1.885, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.992,    time: 1.113645,    eta: 0:04:05
+		metric_loss: 6.127, 		virtual_normal_loss: 1.782, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.875,    time: 1.151412,    eta: 0:04:01
+		metric_loss: 6.084, 		virtual_normal_loss: 1.752, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.550,    time: 1.149323,    eta: 0:03:49
+		metric_loss: 5.816, 		virtual_normal_loss: 1.615, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.400,    time: 1.147498,    eta: 0:03:38
+		metric_loss: 5.736, 		virtual_normal_loss: 1.594, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.493,    time: 1.145486,    eta: 0:03:26
+		metric_loss: 5.729, 		virtual_normal_loss: 1.670, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.836,    time: 1.143919,    eta: 0:03:14
+		metric_loss: 6.088, 		virtual_normal_loss: 1.702, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.771,    time: 1.142280,    eta: 0:03:02
+		metric_loss: 5.884, 		virtual_normal_loss: 1.702, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.117,    time: 1.140978,    eta: 0:02:51
+		metric_loss: 5.529, 		virtual_normal_loss: 1.561, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.134,    time: 1.139827,    eta: 0:02:39
+		metric_loss: 5.504, 		virtual_normal_loss: 1.592, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.528,    time: 1.139781,    eta: 0:02:28
+		metric_loss: 5.842, 		virtual_normal_loss: 1.607, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.435,    time: 1.156983,    eta: 0:02:18
+		metric_loss: 5.912, 		virtual_normal_loss: 1.500, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.224,    time: 1.155290,    eta: 0:02:07
+		metric_loss: 5.593, 		virtual_normal_loss: 1.387, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.847,    time: 1.153801,    eta: 0:01:55
+		metric_loss: 5.428, 		virtual_normal_loss: 1.497, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.937,    time: 1.153213,    eta: 0:01:43
+		metric_loss: 5.553, 		virtual_normal_loss: 1.558, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.068,    time: 1.170816,    eta: 0:01:33
+		metric_loss: 5.619, 		virtual_normal_loss: 1.424, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.053,    time: 1.169033,    eta: 0:01:21
+		metric_loss: 5.475, 		virtual_normal_loss: 1.424, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.870,    time: 1.167313,    eta: 0:01:10
+		metric_loss: 5.446, 		virtual_normal_loss: 1.371, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.087,    time: 1.165882,    eta: 0:00:58
+		metric_loss: 5.488, 		virtual_normal_loss: 1.371, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.974,    time: 1.164349,    eta: 0:00:46
+		metric_loss: 5.427, 		virtual_normal_loss: 1.402, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.598,    time: 1.162908,    eta: 0:00:34
+		metric_loss: 5.233, 		virtual_normal_loss: 1.263, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.527,    time: 1.161483,    eta: 0:00:23
+		metric_loss: 5.201, 		virtual_normal_loss: 1.270, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.573,    time: 1.160400,    eta: 0:00:11
+		metric_loss: 5.220, 		virtual_normal_loss: 1.296, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.634,    time: 1.159413,    eta: 0:00:00
+		metric_loss: 5.334, 		virtual_normal_loss: 1.330, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 17.354,    time: 4.439244,    eta: 0:28:51
+		metric_loss: 9.783, 		virtual_normal_loss: 4.903, 		rd_loss: 2.759, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 16.433,    time: 4.378126,    eta: 0:27:43
+		metric_loss: 8.904, 		virtual_normal_loss: 4.345, 		rd_loss: 2.567, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 13.910,    time: 4.346799,    eta: 0:26:48
+		metric_loss: 7.946, 		virtual_normal_loss: 3.708, 		rd_loss: 2.289, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.283,    time: 4.346890,    eta: 0:26:04
+		metric_loss: 7.171, 		virtual_normal_loss: 2.857, 		rd_loss: 2.113, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 11.916,    time: 4.340399,    eta: 0:25:19
+		metric_loss: 7.129, 		virtual_normal_loss: 2.642, 		rd_loss: 2.000, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 11.239,    time: 4.342060,    eta: 0:24:36
+		metric_loss: 6.930, 		virtual_normal_loss: 2.429, 		rd_loss: 1.890, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.832,    time: 4.341650,    eta: 0:23:52
+		metric_loss: 6.626, 		virtual_normal_loss: 2.349, 		rd_loss: 1.802, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.786,    time: 4.349199,    eta: 0:23:11
+		metric_loss: 6.728, 		virtual_normal_loss: 2.349, 		rd_loss: 1.719, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 10.623,    time: 4.351804,    eta: 0:22:29
+		metric_loss: 6.678, 		virtual_normal_loss: 2.159, 		rd_loss: 1.743, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 10.323,    time: 4.350270,    eta: 0:21:45
+		metric_loss: 6.366, 		virtual_normal_loss: 2.042, 		rd_loss: 1.696, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.766,    time: 4.400954,    eta: 0:21:16
+		metric_loss: 6.232, 		virtual_normal_loss: 1.919, 		rd_loss: 1.569, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.854,    time: 4.398230,    eta: 0:20:31
+		metric_loss: 6.309, 		virtual_normal_loss: 1.942, 		rd_loss: 1.602, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.766,    time: 4.394282,    eta: 0:19:46
+		metric_loss: 6.257, 		virtual_normal_loss: 2.054, 		rd_loss: 1.543, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.462,    time: 4.392959,    eta: 0:19:02
+		metric_loss: 6.141, 		virtual_normal_loss: 1.855, 		rd_loss: 1.519, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.225,    time: 4.393287,    eta: 0:18:18
+		metric_loss: 6.136, 		virtual_normal_loss: 1.691, 		rd_loss: 1.442, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.164,    time: 4.397119,    eta: 0:17:35
+		metric_loss: 5.969, 		virtual_normal_loss: 1.669, 		rd_loss: 1.433, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.294,    time: 4.395366,    eta: 0:16:50
+		metric_loss: 6.132, 		virtual_normal_loss: 1.720, 		rd_loss: 1.450, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.454,    time: 4.395832,    eta: 0:16:07
+		metric_loss: 6.213, 		virtual_normal_loss: 1.859, 		rd_loss: 1.466, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.291,    time: 4.396060,    eta: 0:15:23
+		metric_loss: 6.276, 		virtual_normal_loss: 1.808, 		rd_loss: 1.510, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.081,    time: 4.395452,    eta: 0:14:39
+		metric_loss: 5.978, 		virtual_normal_loss: 1.555, 		rd_loss: 1.415, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 17.795,    time: 4.474971,    eta: 0:29:05
+		metric_loss: 9.802, 		virtual_normal_loss: 5.275, 		rd_loss: 2.806, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 15.349,    time: 4.406787,    eta: 0:27:54
+		metric_loss: 9.030, 		virtual_normal_loss: 4.021, 		rd_loss: 2.492, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 13.954,    time: 4.363329,    eta: 0:26:54
+		metric_loss: 8.199, 		virtual_normal_loss: 3.493, 		rd_loss: 2.164, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.606,    time: 4.336123,    eta: 0:26:01
+		metric_loss: 7.602, 		virtual_normal_loss: 3.082, 		rd_loss: 1.873, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 11.852,    time: 4.322431,    eta: 0:25:12
+		metric_loss: 7.165, 		virtual_normal_loss: 2.842, 		rd_loss: 1.784, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 11.454,    time: 4.321911,    eta: 0:24:29
+		metric_loss: 6.813, 		virtual_normal_loss: 2.603, 		rd_loss: 1.668, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 11.186,    time: 4.330138,    eta: 0:23:48
+		metric_loss: 6.788, 		virtual_normal_loss: 2.584, 		rd_loss: 1.643, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.835,    time: 4.342626,    eta: 0:23:09
+		metric_loss: 6.657, 		virtual_normal_loss: 2.556, 		rd_loss: 1.654, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 10.436,    time: 4.341288,    eta: 0:22:25
+		metric_loss: 6.606, 		virtual_normal_loss: 2.188, 		rd_loss: 1.475, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 10.324,    time: 4.339551,    eta: 0:21:41
+		metric_loss: 6.630, 		virtual_normal_loss: 2.094, 		rd_loss: 1.407, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 10.039,    time: 4.338152,    eta: 0:20:58
+		metric_loss: 6.585, 		virtual_normal_loss: 2.027, 		rd_loss: 1.379, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.878,    time: 4.339748,    eta: 0:20:15
+		metric_loss: 6.449, 		virtual_normal_loss: 1.985, 		rd_loss: 1.336, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.978,    time: 4.339896,    eta: 0:19:31
+		metric_loss: 6.416, 		virtual_normal_loss: 1.859, 		rd_loss: 1.415, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.328,    time: 4.336967,    eta: 0:18:47
+		metric_loss: 6.280, 		virtual_normal_loss: 1.720, 		rd_loss: 1.307, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.128,    time: 4.339005,    eta: 0:18:04
+		metric_loss: 6.220, 		virtual_normal_loss: 1.691, 		rd_loss: 1.264, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.288,    time: 4.341112,    eta: 0:17:21
+		metric_loss: 6.232, 		virtual_normal_loss: 1.731, 		rd_loss: 1.314, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.205,    time: 4.337168,    eta: 0:16:37
+		metric_loss: 6.105, 		virtual_normal_loss: 1.723, 		rd_loss: 1.250, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.127,    time: 4.333401,    eta: 0:15:53
+		metric_loss: 6.161, 		virtual_normal_loss: 1.644, 		rd_loss: 1.222, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 9.031,    time: 4.329752,    eta: 0:15:09
+		metric_loss: 6.041, 		virtual_normal_loss: 1.640, 		rd_loss: 1.184, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 8.876,    time: 4.326310,    eta: 0:14:25
+		metric_loss: 5.972, 		virtual_normal_loss: 1.683, 		rd_loss: 1.223, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.807,    time: 4.322954,    eta: 0:13:41
+		metric_loss: 5.867, 		virtual_normal_loss: 1.675, 		rd_loss: 1.223, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.584,    time: 4.335065,    eta: 0:13:00
+		metric_loss: 5.775, 		virtual_normal_loss: 1.568, 		rd_loss: 1.151, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.624,    time: 4.334819,    eta: 0:12:16
+		metric_loss: 5.864, 		virtual_normal_loss: 1.688, 		rd_loss: 1.127, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.478,    time: 4.334538,    eta: 0:11:33
+		metric_loss: 5.711, 		virtual_normal_loss: 1.589, 		rd_loss: 1.105, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 8.438,    time: 4.333562,    eta: 0:10:50
+		metric_loss: 5.643, 		virtual_normal_loss: 1.589, 		rd_loss: 1.101, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 8.513,    time: 4.331790,    eta: 0:10:06
+		metric_loss: 5.649, 		virtual_normal_loss: 1.484, 		rd_loss: 1.139, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 8.174,    time: 4.331164,    eta: 0:09:23
+		metric_loss: 5.589, 		virtual_normal_loss: 1.397, 		rd_loss: 1.139, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.891,    time: 4.331168,    eta: 0:08:39
+		metric_loss: 5.540, 		virtual_normal_loss: 1.335, 		rd_loss: 1.097, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 8.190,    time: 4.331665,    eta: 0:07:56
+		metric_loss: 5.699, 		virtual_normal_loss: 1.335, 		rd_loss: 1.099, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 8.206,    time: 4.329377,    eta: 0:07:12
+		metric_loss: 5.633, 		virtual_normal_loss: 1.354, 		rd_loss: 1.117, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 8.025,    time: 4.327310,    eta: 0:06:29
+		metric_loss: 5.478, 		virtual_normal_loss: 1.377, 		rd_loss: 1.112, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.932,    time: 4.325614,    eta: 0:05:46
+		metric_loss: 5.543, 		virtual_normal_loss: 1.260, 		rd_loss: 1.056, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.803,    time: 4.325950,    eta: 0:05:02
+		metric_loss: 5.539, 		virtual_normal_loss: 1.260, 		rd_loss: 1.062, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.636,    time: 4.325535,    eta: 0:04:19
+		metric_loss: 5.435, 		virtual_normal_loss: 1.260, 		rd_loss: 1.009, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.788,    time: 4.324075,    eta: 0:03:36
+		metric_loss: 5.259, 		virtual_normal_loss: 1.250, 		rd_loss: 1.009, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.890,    time: 4.322274,    eta: 0:02:52
+		metric_loss: 5.340, 		virtual_normal_loss: 1.200, 		rd_loss: 1.070, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 7.639,    time: 4.320855,    eta: 0:02:09
+		metric_loss: 5.340, 		virtual_normal_loss: 1.147, 		rd_loss: 0.991, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 7.437,    time: 4.319906,    eta: 0:01:26
+		metric_loss: 5.313, 		virtual_normal_loss: 1.128, 		rd_loss: 0.981, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 7.406,    time: 4.319284,    eta: 0:00:43
+		metric_loss: 5.310, 		virtual_normal_loss: 1.091, 		rd_loss: 0.986, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 7.415,    time: 4.318317,    eta: 0:00:00
+		metric_loss: 5.373, 		virtual_normal_loss: 1.109, 		rd_loss: 0.975, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 16.871,    time: 4.352836,    eta: 0:28:17
+		metric_loss: 10.093, 		virtual_normal_loss: 5.575, 		rd_loss: 1.492, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 14.679,    time: 4.327170,    eta: 0:27:24
+		metric_loss: 9.105, 		virtual_normal_loss: 3.994, 		rd_loss: 1.366, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.872,    time: 4.339785,    eta: 0:26:45
+		metric_loss: 8.097, 		virtual_normal_loss: 3.519, 		rd_loss: 1.233, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 11.444,    time: 4.339761,    eta: 0:26:02
+		metric_loss: 7.310, 		virtual_normal_loss: 3.114, 		rd_loss: 1.083, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.786,    time: 4.344481,    eta: 0:25:20
+		metric_loss: 6.965, 		virtual_normal_loss: 2.817, 		rd_loss: 1.043, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.145,    time: 4.341166,    eta: 0:24:35
+		metric_loss: 6.842, 		virtual_normal_loss: 2.464, 		rd_loss: 1.001, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 10.276,    time: 4.339172,    eta: 0:23:51
+		metric_loss: 6.870, 		virtual_normal_loss: 2.372, 		rd_loss: 0.950, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.831,    time: 4.337026,    eta: 0:23:07
+		metric_loss: 6.638, 		virtual_normal_loss: 2.225, 		rd_loss: 0.902, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.423,    time: 4.337125,    eta: 0:22:24
+		metric_loss: 6.493, 		virtual_normal_loss: 2.138, 		rd_loss: 0.902, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.478,    time: 4.339826,    eta: 0:21:41
+		metric_loss: 6.479, 		virtual_normal_loss: 2.079, 		rd_loss: 0.896, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.195,    time: 4.337249,    eta: 0:20:57
+		metric_loss: 6.076, 		virtual_normal_loss: 2.008, 		rd_loss: 0.873, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.166,    time: 4.337153,    eta: 0:20:14
+		metric_loss: 6.157, 		virtual_normal_loss: 2.016, 		rd_loss: 0.869, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.365,    time: 4.337441,    eta: 0:19:31
+		metric_loss: 6.543, 		virtual_normal_loss: 2.047, 		rd_loss: 0.816, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.184,    time: 4.339750,    eta: 0:18:48
+		metric_loss: 6.419, 		virtual_normal_loss: 1.988, 		rd_loss: 0.772, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 9.016,    time: 4.340997,    eta: 0:18:05
+		metric_loss: 6.195, 		virtual_normal_loss: 1.980, 		rd_loss: 0.744, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.704,    time: 4.339082,    eta: 0:17:21
+		metric_loss: 6.096, 		virtual_normal_loss: 1.850, 		rd_loss: 0.800, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 8.547,    time: 4.338823,    eta: 0:16:37
+		metric_loss: 6.074, 		virtual_normal_loss: 1.702, 		rd_loss: 0.786, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 8.513,    time: 4.340276,    eta: 0:15:54
+		metric_loss: 6.124, 		virtual_normal_loss: 1.745, 		rd_loss: 0.731, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 8.441,    time: 4.340529,    eta: 0:15:11
+		metric_loss: 5.974, 		virtual_normal_loss: 1.691, 		rd_loss: 0.707, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 8.347,    time: 4.339932,    eta: 0:14:27
+		metric_loss: 5.806, 		virtual_normal_loss: 1.570, 		rd_loss: 0.735, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.527,    time: 4.342731,    eta: 0:13:45
+		metric_loss: 5.968, 		virtual_normal_loss: 1.695, 		rd_loss: 0.742, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.481,    time: 4.343712,    eta: 0:13:01
+		metric_loss: 6.020, 		virtual_normal_loss: 1.758, 		rd_loss: 0.708, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.311,    time: 4.344062,    eta: 0:12:18
+		metric_loss: 5.983, 		virtual_normal_loss: 1.628, 		rd_loss: 0.718, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 8.153,    time: 4.345408,    eta: 0:11:35
+		metric_loss: 5.819, 		virtual_normal_loss: 1.484, 		rd_loss: 0.684, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.912,    time: 4.343816,    eta: 0:10:51
+		metric_loss: 5.654, 		virtual_normal_loss: 1.434, 		rd_loss: 0.691, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.934,    time: 4.343716,    eta: 0:10:08
+		metric_loss: 5.729, 		virtual_normal_loss: 1.490, 		rd_loss: 0.705, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.951,    time: 4.342770,    eta: 0:09:24
+		metric_loss: 5.781, 		virtual_normal_loss: 1.485, 		rd_loss: 0.667, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.780,    time: 4.344302,    eta: 0:08:41
+		metric_loss: 5.617, 		virtual_normal_loss: 1.317, 		rd_loss: 0.673, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.621,    time: 4.344966,    eta: 0:07:57
+		metric_loss: 5.617, 		virtual_normal_loss: 1.346, 		rd_loss: 0.648, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.677,    time: 4.344460,    eta: 0:07:14
+		metric_loss: 5.643, 		virtual_normal_loss: 1.346, 		rd_loss: 0.615, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.592,    time: 4.344282,    eta: 0:06:30
+		metric_loss: 5.549, 		virtual_normal_loss: 1.314, 		rd_loss: 0.659, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.417,    time: 4.345001,    eta: 0:05:47
+		metric_loss: 5.468, 		virtual_normal_loss: 1.309, 		rd_loss: 0.642, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.458,    time: 4.343268,    eta: 0:05:04
+		metric_loss: 5.448, 		virtual_normal_loss: 1.240, 		rd_loss: 0.641, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.348,    time: 4.342972,    eta: 0:04:20
+		metric_loss: 5.451, 		virtual_normal_loss: 1.176, 		rd_loss: 0.633, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.091,    time: 4.344649,    eta: 0:03:37
+		metric_loss: 5.261, 		virtual_normal_loss: 1.149, 		rd_loss: 0.612, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 7.091,    time: 4.350902,    eta: 0:02:54
+		metric_loss: 5.266, 		virtual_normal_loss: 1.160, 		rd_loss: 0.594, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 7.056,    time: 4.350406,    eta: 0:02:10
+		metric_loss: 5.276, 		virtual_normal_loss: 1.117, 		rd_loss: 0.598, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.924,    time: 4.349920,    eta: 0:01:26
+		metric_loss: 5.181, 		virtual_normal_loss: 1.108, 		rd_loss: 0.598, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.998,    time: 4.349512,    eta: 0:00:43
+		metric_loss: 5.207, 		virtual_normal_loss: 1.111, 		rd_loss: 0.621, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 7.097,    time: 4.348470,    eta: 0:00:00
+		metric_loss: 5.289, 		virtual_normal_loss: 1.151, 		rd_loss: 0.626, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 15.815,    time: 1.172189,    eta: 0:07:37
+		metric_loss: 9.998, 		virtual_normal_loss: 6.002, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.692,    time: 1.135907,    eta: 0:07:11
+		metric_loss: 9.045, 		virtual_normal_loss: 3.967, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 11.349,    time: 1.131145,    eta: 0:06:58
+		metric_loss: 7.903, 		virtual_normal_loss: 3.118, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 10.064,    time: 1.127069,    eta: 0:06:45
+		metric_loss: 7.222, 		virtual_normal_loss: 2.790, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.907,    time: 1.121406,    eta: 0:06:32
+		metric_loss: 7.133, 		virtual_normal_loss: 2.810, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.491,    time: 1.118392,    eta: 0:06:20
+		metric_loss: 6.684, 		virtual_normal_loss: 2.683, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.123,    time: 1.118136,    eta: 0:06:08
+		metric_loss: 6.584, 		virtual_normal_loss: 2.539, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.092,    time: 1.118324,    eta: 0:05:57
+		metric_loss: 6.639, 		virtual_normal_loss: 2.404, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 9.128,    time: 1.118742,    eta: 0:05:46
+		metric_loss: 6.583, 		virtual_normal_loss: 2.201, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.358,    time: 1.117820,    eta: 0:05:35
+		metric_loss: 6.288, 		virtual_normal_loss: 2.100, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.358,    time: 1.119219,    eta: 0:05:24
+		metric_loss: 6.337, 		virtual_normal_loss: 2.010, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.462,    time: 1.118651,    eta: 0:05:13
+		metric_loss: 6.382, 		virtual_normal_loss: 2.117, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.343,    time: 1.118332,    eta: 0:05:01
+		metric_loss: 6.193, 		virtual_normal_loss: 2.032, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.139,    time: 1.117173,    eta: 0:04:50
+		metric_loss: 6.111, 		virtual_normal_loss: 2.008, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.364,    time: 1.116534,    eta: 0:04:39
+		metric_loss: 6.175, 		virtual_normal_loss: 2.076, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.396,    time: 1.117378,    eta: 0:04:28
+		metric_loss: 6.186, 		virtual_normal_loss: 2.106, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 8.060,    time: 1.117598,    eta: 0:04:17
+		metric_loss: 6.138, 		virtual_normal_loss: 1.891, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.927,    time: 1.117730,    eta: 0:04:05
+		metric_loss: 6.135, 		virtual_normal_loss: 1.767, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.740,    time: 1.117429,    eta: 0:03:54
+		metric_loss: 5.861, 		virtual_normal_loss: 1.767, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.499,    time: 1.117023,    eta: 0:03:43
+		metric_loss: 5.729, 		virtual_normal_loss: 1.662, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.288,    time: 1.116877,    eta: 0:03:32
+		metric_loss: 5.644, 		virtual_normal_loss: 1.624, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.217,    time: 1.117387,    eta: 0:03:21
+		metric_loss: 5.599, 		virtual_normal_loss: 1.708, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.470,    time: 1.116921,    eta: 0:03:09
+		metric_loss: 5.718, 		virtual_normal_loss: 1.617, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.729,    time: 1.116734,    eta: 0:02:58
+		metric_loss: 5.951, 		virtual_normal_loss: 1.651, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.393,    time: 1.116660,    eta: 0:02:47
+		metric_loss: 5.766, 		virtual_normal_loss: 1.659, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.092,    time: 1.116336,    eta: 0:02:36
+		metric_loss: 5.542, 		virtual_normal_loss: 1.540, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.344,    time: 1.116375,    eta: 0:02:25
+		metric_loss: 5.771, 		virtual_normal_loss: 1.518, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.446,    time: 1.116346,    eta: 0:02:13
+		metric_loss: 5.851, 		virtual_normal_loss: 1.525, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.013,    time: 1.116275,    eta: 0:02:02
+		metric_loss: 5.600, 		virtual_normal_loss: 1.407, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.356,    time: 1.116484,    eta: 0:01:51
+		metric_loss: 5.715, 		virtual_normal_loss: 1.451, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.839,    time: 1.116671,    eta: 0:01:40
+		metric_loss: 5.386, 		virtual_normal_loss: 1.416, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.722,    time: 1.116880,    eta: 0:01:29
+		metric_loss: 5.310, 		virtual_normal_loss: 1.345, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.979,    time: 1.117145,    eta: 0:01:18
+		metric_loss: 5.273, 		virtual_normal_loss: 1.459, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.941,    time: 1.117164,    eta: 0:01:07
+		metric_loss: 5.387, 		virtual_normal_loss: 1.377, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.565,    time: 1.117369,    eta: 0:00:55
+		metric_loss: 5.314, 		virtual_normal_loss: 1.251, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.497,    time: 1.117539,    eta: 0:00:44
+		metric_loss: 5.184, 		virtual_normal_loss: 1.210, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.332,    time: 1.117937,    eta: 0:00:33
+		metric_loss: 5.108, 		virtual_normal_loss: 1.207, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.391,    time: 1.118092,    eta: 0:00:22
+		metric_loss: 5.159, 		virtual_normal_loss: 1.294, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.456,    time: 1.118129,    eta: 0:00:11
+		metric_loss: 5.152, 		virtual_normal_loss: 1.258, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.453,    time: 1.118589,    eta: 0:00:00
+		metric_loss: 5.220, 		virtual_normal_loss: 1.218, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 15.963,    time: 1.167871,    eta: 0:07:35
+		metric_loss: 9.934, 		virtual_normal_loss: 6.082, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.888,    time: 1.129841,    eta: 0:07:09
+		metric_loss: 8.947, 		virtual_normal_loss: 4.463, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 11.047,    time: 1.117309,    eta: 0:06:53
+		metric_loss: 7.938, 		virtual_normal_loss: 3.173, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 9.971,    time: 1.113569,    eta: 0:06:40
+		metric_loss: 6.993, 		virtual_normal_loss: 3.025, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.510,    time: 1.111156,    eta: 0:06:28
+		metric_loss: 6.813, 		virtual_normal_loss: 2.612, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.929,    time: 1.109630,    eta: 0:06:17
+		metric_loss: 6.857, 		virtual_normal_loss: 2.674, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.249,    time: 1.108347,    eta: 0:06:05
+		metric_loss: 6.695, 		virtual_normal_loss: 2.606, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.040,    time: 1.107942,    eta: 0:05:54
+		metric_loss: 6.537, 		virtual_normal_loss: 2.361, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.959,    time: 1.107337,    eta: 0:05:43
+		metric_loss: 6.522, 		virtual_normal_loss: 2.245, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.520,    time: 1.107019,    eta: 0:05:32
+		metric_loss: 6.331, 		virtual_normal_loss: 2.219, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.325,    time: 1.106743,    eta: 0:05:20
+		metric_loss: 6.091, 		virtual_normal_loss: 2.037, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.138,    time: 1.106982,    eta: 0:05:09
+		metric_loss: 6.046, 		virtual_normal_loss: 2.001, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.138,    time: 1.106858,    eta: 0:04:58
+		metric_loss: 6.144, 		virtual_normal_loss: 1.950, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.000,    time: 1.106422,    eta: 0:04:47
+		metric_loss: 5.993, 		virtual_normal_loss: 1.913, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.906,    time: 1.106529,    eta: 0:04:36
+		metric_loss: 5.931, 		virtual_normal_loss: 1.870, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.819,    time: 1.106926,    eta: 0:04:25
+		metric_loss: 5.901, 		virtual_normal_loss: 1.871, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.792,    time: 1.107039,    eta: 0:04:14
+		metric_loss: 5.912, 		virtual_normal_loss: 1.831, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.517,    time: 1.107232,    eta: 0:04:03
+		metric_loss: 5.845, 		virtual_normal_loss: 1.815, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.551,    time: 1.107299,    eta: 0:03:52
+		metric_loss: 5.966, 		virtual_normal_loss: 1.826, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.590,    time: 1.107415,    eta: 0:03:41
+		metric_loss: 5.971, 		virtual_normal_loss: 1.793, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.571,    time: 1.107620,    eta: 0:03:30
+		metric_loss: 5.938, 		virtual_normal_loss: 1.642, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.761,    time: 1.107802,    eta: 0:03:19
+		metric_loss: 5.952, 		virtual_normal_loss: 1.678, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.643,    time: 1.107659,    eta: 0:03:08
+		metric_loss: 5.845, 		virtual_normal_loss: 1.818, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.259,    time: 1.107851,    eta: 0:02:57
+		metric_loss: 5.710, 		virtual_normal_loss: 1.604, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.269,    time: 1.107926,    eta: 0:02:46
+		metric_loss: 5.606, 		virtual_normal_loss: 1.604, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.118,    time: 1.107925,    eta: 0:02:35
+		metric_loss: 5.539, 		virtual_normal_loss: 1.557, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 6.921,    time: 1.108041,    eta: 0:02:24
+		metric_loss: 5.403, 		virtual_normal_loss: 1.496, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 6.916,    time: 1.107942,    eta: 0:02:12
+		metric_loss: 5.396, 		virtual_normal_loss: 1.400, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.008,    time: 1.108032,    eta: 0:02:01
+		metric_loss: 5.451, 		virtual_normal_loss: 1.521, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.988,    time: 1.108204,    eta: 0:01:50
+		metric_loss: 5.475, 		virtual_normal_loss: 1.521, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.854,    time: 1.108229,    eta: 0:01:39
+		metric_loss: 5.323, 		virtual_normal_loss: 1.455, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.685,    time: 1.108364,    eta: 0:01:28
+		metric_loss: 5.249, 		virtual_normal_loss: 1.415, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.782,    time: 1.108418,    eta: 0:01:17
+		metric_loss: 5.437, 		virtual_normal_loss: 1.423, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.926,    time: 1.108518,    eta: 0:01:06
+		metric_loss: 5.407, 		virtual_normal_loss: 1.429, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.587,    time: 1.108561,    eta: 0:00:55
+		metric_loss: 5.313, 		virtual_normal_loss: 1.312, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.552,    time: 1.108481,    eta: 0:00:44
+		metric_loss: 5.187, 		virtual_normal_loss: 1.304, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.438,    time: 1.108496,    eta: 0:00:33
+		metric_loss: 5.183, 		virtual_normal_loss: 1.252, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.357,    time: 1.108460,    eta: 0:00:22
+		metric_loss: 5.145, 		virtual_normal_loss: 1.224, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.247,    time: 1.108423,    eta: 0:00:11
+		metric_loss: 5.091, 		virtual_normal_loss: 1.187, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.185,    time: 1.108388,    eta: 0:00:00
+		metric_loss: 5.046, 		virtual_normal_loss: 1.153, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 15.957,    time: 1.182981,    eta: 0:07:41
+		metric_loss: 9.933, 		virtual_normal_loss: 6.088, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 12.822,    time: 1.141803,    eta: 0:07:13
+		metric_loss: 8.929, 		virtual_normal_loss: 4.368, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 11.101,    time: 1.129855,    eta: 0:06:58
+		metric_loss: 7.961, 		virtual_normal_loss: 3.171, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 10.066,    time: 1.123656,    eta: 0:06:44
+		metric_loss: 6.967, 		virtual_normal_loss: 2.947, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.559,    time: 1.119622,    eta: 0:06:31
+		metric_loss: 6.825, 		virtual_normal_loss: 2.617, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.767,    time: 1.117500,    eta: 0:06:19
+		metric_loss: 6.962, 		virtual_normal_loss: 2.587, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 9.187,    time: 1.115965,    eta: 0:06:08
+		metric_loss: 6.730, 		virtual_normal_loss: 2.635, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 8.947,    time: 1.114432,    eta: 0:05:56
+		metric_loss: 6.486, 		virtual_normal_loss: 2.374, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.839,    time: 1.113766,    eta: 0:05:45
+		metric_loss: 6.443, 		virtual_normal_loss: 2.250, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.458,    time: 1.112676,    eta: 0:05:33
+		metric_loss: 6.311, 		virtual_normal_loss: 2.145, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.319,    time: 1.112508,    eta: 0:05:22
+		metric_loss: 6.132, 		virtual_normal_loss: 1.992, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 8.142,    time: 1.112285,    eta: 0:05:11
+		metric_loss: 6.103, 		virtual_normal_loss: 1.957, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.314,    time: 1.111689,    eta: 0:05:00
+		metric_loss: 6.207, 		virtual_normal_loss: 1.993, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 8.053,    time: 1.111397,    eta: 0:04:48
+		metric_loss: 5.990, 		virtual_normal_loss: 1.993, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.877,    time: 1.110745,    eta: 0:04:37
+		metric_loss: 5.940, 		virtual_normal_loss: 1.835, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 7.919,    time: 1.110695,    eta: 0:04:26
+		metric_loss: 5.970, 		virtual_normal_loss: 1.941, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.892,    time: 1.110687,    eta: 0:04:15
+		metric_loss: 5.978, 		virtual_normal_loss: 1.872, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.499,    time: 1.110467,    eta: 0:04:04
+		metric_loss: 5.865, 		virtual_normal_loss: 1.687, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.599,    time: 1.110318,    eta: 0:03:53
+		metric_loss: 5.846, 		virtual_normal_loss: 1.869, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 7.626,    time: 1.110331,    eta: 0:03:42
+		metric_loss: 5.936, 		virtual_normal_loss: 1.833, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.685,    time: 1.110054,    eta: 0:03:30
+		metric_loss: 6.058, 		virtual_normal_loss: 1.631, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.827,    time: 1.109792,    eta: 0:03:19
+		metric_loss: 6.077, 		virtual_normal_loss: 1.657, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.841,    time: 1.109769,    eta: 0:03:08
+		metric_loss: 5.918, 		virtual_normal_loss: 1.852, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 7.378,    time: 1.109507,    eta: 0:02:57
+		metric_loss: 5.769, 		virtual_normal_loss: 1.620, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.310,    time: 1.109533,    eta: 0:02:46
+		metric_loss: 5.620, 		virtual_normal_loss: 1.588, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.147,    time: 1.109345,    eta: 0:02:35
+		metric_loss: 5.514, 		virtual_normal_loss: 1.615, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 7.089,    time: 1.109257,    eta: 0:02:24
+		metric_loss: 5.478, 		virtual_normal_loss: 1.526, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 6.997,    time: 1.109076,    eta: 0:02:13
+		metric_loss: 5.426, 		virtual_normal_loss: 1.419, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.006,    time: 1.108932,    eta: 0:02:01
+		metric_loss: 5.420, 		virtual_normal_loss: 1.473, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 7.006,    time: 1.108850,    eta: 0:01:50
+		metric_loss: 5.469, 		virtual_normal_loss: 1.497, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.769,    time: 1.108828,    eta: 0:01:39
+		metric_loss: 5.332, 		virtual_normal_loss: 1.362, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 6.680,    time: 1.108852,    eta: 0:01:28
+		metric_loss: 5.283, 		virtual_normal_loss: 1.376, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.680,    time: 1.108939,    eta: 0:01:17
+		metric_loss: 5.448, 		virtual_normal_loss: 1.376, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.838,    time: 1.108867,    eta: 0:01:06
+		metric_loss: 5.438, 		virtual_normal_loss: 1.385, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.687,    time: 1.108701,    eta: 0:00:55
+		metric_loss: 5.323, 		virtual_normal_loss: 1.363, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 6.592,    time: 1.108719,    eta: 0:00:44
+		metric_loss: 5.223, 		virtual_normal_loss: 1.321, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.489,    time: 1.108704,    eta: 0:00:33
+		metric_loss: 5.175, 		virtual_normal_loss: 1.218, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.431,    time: 1.108637,    eta: 0:00:22
+		metric_loss: 5.162, 		virtual_normal_loss: 1.186, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.318,    time: 1.108730,    eta: 0:00:11
+		metric_loss: 5.105, 		virtual_normal_loss: 1.203, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 6.274,    time: 1.108707,    eta: 0:00:00
+		metric_loss: 5.062, 		virtual_normal_loss: 1.184, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 8.953,    time: 1.100411,    eta: 0:07:09
+		metric_loss: 8.953, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 
+[Step 20/400] [Epoch 0/10]  [nyudv2]
+		loss: 7.843,    time: 1.065263,    eta: 0:06:44
+		metric_loss: 7.843, 		abs_rel: 0.000000, 
+		group0_lr: 0.000095,       group1_lr: 0.000095, 
+[Step 30/400] [Epoch 0/10]  [nyudv2]
+		loss: 7.046,    time: 1.053617,    eta: 0:06:29
+		metric_loss: 7.046, 		abs_rel: 0.000000, 
+		group0_lr: 0.000093,       group1_lr: 0.000093, 
+[Step 40/400] [Epoch 0/10]  [nyudv2]
+		loss: 6.793,    time: 1.047588,    eta: 0:06:17
+		metric_loss: 6.793, 		abs_rel: 0.000000, 
+		group0_lr: 0.000091,       group1_lr: 0.000091, 
+[Step 50/400] [Epoch 1/10]  [nyudv2]
+		loss: 6.898,    time: 1.044820,    eta: 0:06:05
+		metric_loss: 6.898, 		abs_rel: 0.000000, 
+		group0_lr: 0.000089,       group1_lr: 0.000089, 
+[Step 60/400] [Epoch 1/10]  [nyudv2]
+		loss: 6.691,    time: 1.042794,    eta: 0:05:54
+		metric_loss: 6.691, 		abs_rel: 0.000000, 
+		group0_lr: 0.000086,       group1_lr: 0.000086, 
+[Step 70/400] [Epoch 1/10]  [nyudv2]
+		loss: 6.609,    time: 1.041633,    eta: 0:05:43
+		metric_loss: 6.609, 		abs_rel: 0.000000, 
+		group0_lr: 0.000084,       group1_lr: 0.000084, 
+[Step 80/400] [Epoch 1/10]  [nyudv2]
+		loss: 6.357,    time: 1.040922,    eta: 0:05:33
+		metric_loss: 6.357, 		abs_rel: 0.000000, 
+		group0_lr: 0.000082,       group1_lr: 0.000082, 
+[Step 90/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.320,    time: 1.040596,    eta: 0:05:22
+		metric_loss: 6.320, 		abs_rel: 0.000000, 
+		group0_lr: 0.000080,       group1_lr: 0.000080, 
+[Step 100/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.111,    time: 1.040614,    eta: 0:05:12
+		metric_loss: 6.111, 		abs_rel: 0.000000, 
+		group0_lr: 0.000077,       group1_lr: 0.000077, 
+[Step 110/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.056,    time: 1.040764,    eta: 0:05:01
+		metric_loss: 6.056, 		abs_rel: 0.000000, 
+		group0_lr: 0.000075,       group1_lr: 0.000075, 
+[Step 120/400] [Epoch 2/10]  [nyudv2]
+		loss: 6.200,    time: 1.040781,    eta: 0:04:51
+		metric_loss: 6.200, 		abs_rel: 0.000000, 
+		group0_lr: 0.000073,       group1_lr: 0.000073, 
+[Step 130/400] [Epoch 3/10]  [nyudv2]
+		loss: 6.301,    time: 1.041291,    eta: 0:04:41
+		metric_loss: 6.301, 		abs_rel: 0.000000, 
+		group0_lr: 0.000070,       group1_lr: 0.000070, 
+[Step 140/400] [Epoch 3/10]  [nyudv2]
+		loss: 6.191,    time: 1.041842,    eta: 0:04:30
+		metric_loss: 6.191, 		abs_rel: 0.000000, 
+		group0_lr: 0.000068,       group1_lr: 0.000068, 
+[Step 150/400] [Epoch 3/10]  [nyudv2]
+		loss: 5.920,    time: 1.042274,    eta: 0:04:20
+		metric_loss: 5.920, 		abs_rel: 0.000000, 
+		group0_lr: 0.000066,       group1_lr: 0.000066, 
+[Step 160/400] [Epoch 3/10]  [nyudv2]
+		loss: 5.919,    time: 1.042495,    eta: 0:04:10
+		metric_loss: 5.919, 		abs_rel: 0.000000, 
+		group0_lr: 0.000063,       group1_lr: 0.000063, 
+[Step 170/400] [Epoch 4/10]  [nyudv2]
+		loss: 5.968,    time: 1.043045,    eta: 0:03:59
+		metric_loss: 5.968, 		abs_rel: 0.000000, 
+		group0_lr: 0.000061,       group1_lr: 0.000061, 
+[Step 180/400] [Epoch 4/10]  [nyudv2]
+		loss: 5.867,    time: 1.042929,    eta: 0:03:49
+		metric_loss: 5.867, 		abs_rel: 0.000000, 
+		group0_lr: 0.000058,       group1_lr: 0.000058, 
+[Step 190/400] [Epoch 4/10]  [nyudv2]
+		loss: 5.861,    time: 1.043270,    eta: 0:03:39
+		metric_loss: 5.861, 		abs_rel: 0.000000, 
+		group0_lr: 0.000056,       group1_lr: 0.000056, 
+[Step 200/400] [Epoch 4/10]  [nyudv2]
+		loss: 5.729,    time: 1.043529,    eta: 0:03:28
+		metric_loss: 5.729, 		abs_rel: 0.000000, 
+		group0_lr: 0.000054,       group1_lr: 0.000054, 
+[Step 210/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.631,    time: 1.043745,    eta: 0:03:18
+		metric_loss: 5.631, 		abs_rel: 0.000000, 
+		group0_lr: 0.000051,       group1_lr: 0.000051, 
+[Step 220/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.468,    time: 1.044174,    eta: 0:03:07
+		metric_loss: 5.468, 		abs_rel: 0.000000, 
+		group0_lr: 0.000049,       group1_lr: 0.000049, 
+[Step 230/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.390,    time: 1.044371,    eta: 0:02:57
+		metric_loss: 5.390, 		abs_rel: 0.000000, 
+		group0_lr: 0.000046,       group1_lr: 0.000046, 
+[Step 240/400] [Epoch 5/10]  [nyudv2]
+		loss: 5.368,    time: 1.044621,    eta: 0:02:47
+		metric_loss: 5.368, 		abs_rel: 0.000000, 
+		group0_lr: 0.000044,       group1_lr: 0.000044, 
+[Step 250/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.358,    time: 1.044842,    eta: 0:02:36
+		metric_loss: 5.358, 		abs_rel: 0.000000, 
+		group0_lr: 0.000041,       group1_lr: 0.000041, 
+[Step 260/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.358,    time: 1.044938,    eta: 0:02:26
+		metric_loss: 5.358, 		abs_rel: 0.000000, 
+		group0_lr: 0.000039,       group1_lr: 0.000039, 
+[Step 270/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.342,    time: 1.045170,    eta: 0:02:15
+		metric_loss: 5.342, 		abs_rel: 0.000000, 
+		group0_lr: 0.000036,       group1_lr: 0.000036, 
+[Step 280/400] [Epoch 6/10]  [nyudv2]
+		loss: 5.254,    time: 1.045563,    eta: 0:02:05
+		metric_loss: 5.254, 		abs_rel: 0.000000, 
+		group0_lr: 0.000034,       group1_lr: 0.000034, 
+[Step 290/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.291,    time: 1.045812,    eta: 0:01:55
+		metric_loss: 5.291, 		abs_rel: 0.000000, 
+		group0_lr: 0.000031,       group1_lr: 0.000031, 
+[Step 300/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.206,    time: 1.046080,    eta: 0:01:44
+		metric_loss: 5.206, 		abs_rel: 0.000000, 
+		group0_lr: 0.000029,       group1_lr: 0.000029, 
+[Step 310/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.169,    time: 1.046473,    eta: 0:01:34
+		metric_loss: 5.169, 		abs_rel: 0.000000, 
+		group0_lr: 0.000026,       group1_lr: 0.000026, 
+[Step 320/400] [Epoch 7/10]  [nyudv2]
+		loss: 5.178,    time: 1.046659,    eta: 0:01:23
+		metric_loss: 5.178, 		abs_rel: 0.000000, 
+		group0_lr: 0.000023,       group1_lr: 0.000023, 
+[Step 330/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.093,    time: 1.046870,    eta: 0:01:13
+		metric_loss: 5.093, 		abs_rel: 0.000000, 
+		group0_lr: 0.000021,       group1_lr: 0.000021, 
+[Step 340/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.139,    time: 1.047021,    eta: 0:01:02
+		metric_loss: 5.139, 		abs_rel: 0.000000, 
+		group0_lr: 0.000018,       group1_lr: 0.000018, 
+[Step 350/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.043,    time: 1.047122,    eta: 0:00:52
+		metric_loss: 5.043, 		abs_rel: 0.000000, 
+		group0_lr: 0.000015,       group1_lr: 0.000015, 
+[Step 360/400] [Epoch 8/10]  [nyudv2]
+		loss: 5.023,    time: 1.047246,    eta: 0:00:41
+		metric_loss: 5.023, 		abs_rel: 0.000000, 
+		group0_lr: 0.000013,       group1_lr: 0.000013, 
+[Step 370/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.102,    time: 1.047291,    eta: 0:00:31
+		metric_loss: 5.102, 		abs_rel: 0.000000, 
+		group0_lr: 0.000010,       group1_lr: 0.000010, 
+[Step 380/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.061,    time: 1.047390,    eta: 0:00:20
+		metric_loss: 5.061, 		abs_rel: 0.000000, 
+		group0_lr: 0.000007,       group1_lr: 0.000007, 
+[Step 390/400] [Epoch 9/10]  [nyudv2]
+		loss: 4.978,    time: 1.047593,    eta: 0:00:10
+		metric_loss: 4.978, 		abs_rel: 0.000000, 
+		group0_lr: 0.000004,       group1_lr: 0.000004, 
+[Step 400/400] [Epoch 9/10]  [nyudv2]
+		loss: 5.006,    time: 1.047802,    eta: 0:00:00
+		metric_loss: 5.006, 		abs_rel: 0.000000, 
+		group0_lr: 0.000000,       group1_lr: 0.000000, 
+[Step 10/400] [Epoch 0/10]  [nyudv2]
+		loss: 15.941,    time: 4.367127,    eta: 0:28:23
+		metric_loss: 10.077, 		virtual_normal_loss: 5.982, 		rd_loss: -0.120, 		abs_rel: 0.000000, 
+		group0_lr: 0.000098,       group1_lr: 0.000098, 

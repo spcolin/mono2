@@ -13,6 +13,7 @@ import traceback
 from tools.parse_arg_train import TrainOptions
 from tools.parse_arg_val import ValOptions
 from lib.models.image_transfer import resize_image
+import random
 
 logger = setup_logging(__name__)
 
@@ -82,6 +83,16 @@ def val(val_dataloader, model):
 
 
 if __name__=='__main__':
+
+    torch.manual_seed(20)
+    torch.cuda.manual_seed_all(20)
+    np.random.seed(20)
+    random.seed(20)
+    # torch.backends.cudnn.deterministic = True
+
+
+
+
     # Train args
     train_opt = TrainOptions()
     train_args = train_opt.parse()
