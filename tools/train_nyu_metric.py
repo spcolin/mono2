@@ -98,8 +98,8 @@ if __name__=='__main__':
     train_args = train_opt.parse()
     # train_opt.print_options(train_args)
 
-    # train_args.load_ckpt="/home/colin/papercode/VNL_Monocular_Depth_Prediction-master/tools/outputs/Jan05-08-40-33_colin-Alienware-Aurora-R7/ckpt/epoch0_step10.pth"
-    # train_args.resume=True
+    train_args.load_ckpt="E:/pretrained_model/nyu_rawdata.pth"
+    train_args.resume=True
 
 
     # Validation args
