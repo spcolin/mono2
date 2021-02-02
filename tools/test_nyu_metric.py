@@ -21,6 +21,8 @@ if __name__ == '__main__':
     test_args.batchsize = 1
     merge_cfg_from_file(test_args)
 
+    test_args.load_ckpt = "E:/pretrained_model/nyu_rawdata.pth"
+
     data_loader = CustomerDataLoader(test_args)
     test_datasize = len(data_loader)
     logger.info('{:>15}: {:<30}'.format('test_data_size', test_datasize))

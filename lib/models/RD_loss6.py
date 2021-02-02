@@ -22,10 +22,12 @@ class RD_loss6(nn.Module):
 
         pred_list = []
         gt_list = []
-
         for i in self.point_pos:
             pred_list.append(self.compute_rd(pred,i))
             gt_list.append(self.compute_rd(gt,i))
+
+        # pred_list=[self.compute_rd(pred,i) for i in self.point_pos]
+        # gt_list=[self.compute_rd(gt,i) for i in self.point_pos]
 
         return pred_list,gt_list
 
@@ -55,6 +57,7 @@ class RD_loss6(nn.Module):
 
         pred_list=torch.cat(pred_list,0)
         gt_list=torch.cat(gt_list,0)
+
 
         pred_norm=torch.norm(pred_list,2,dim=1,keepdim=True)
         gt_norm=torch.norm(gt_list,2,dim=1,keepdim=True)

@@ -20,7 +20,7 @@ class BaseOptions():
         parser.add_argument('--load_ckpt', default=False,help='Checkpoint path to load')
         parser.add_argument('--resume', default=False, help='Resume to train')
 
-        parser.add_argument('--epoch', default=10, type=int, help='Set training epochs')
+        parser.add_argument('--epoch', default=20, type=int, help='Set training epochs')
         parser.add_argument('--start_epoch', default=0, type=int, help='Set training epochs')
         parser.add_argument('--start_step', default=0, type=int, help='Set training steps')
         parser.add_argument('--thread', default=0, type=int, help='Thread for loading data')

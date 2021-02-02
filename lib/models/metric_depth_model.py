@@ -13,6 +13,7 @@ from lib.models.RD_loss3 import RD_loss3
 from lib.models.RD_loss4 import RD_loss4
 from lib.models.RD_loss5 import RD_loss5
 from lib.models.RD_loss6 import RD_loss6
+from lib.models.RD_loss7 import RD_loss7
 
 
 class MetricDepthModel(nn.Module):
@@ -65,28 +66,31 @@ class ModelLoss(object):
     def __init__(self):
         super(ModelLoss, self).__init__()
         self.weight_cross_entropy_loss = WCEL_Loss()
-        self.virtual_normal_loss = VNL_Loss(focal_x=cfg.DATASET.FOCAL_X, focal_y=cfg.DATASET.FOCAL_Y, input_size=cfg.DATASET.CROP_SIZE)
+        # self.virtual_normal_loss = VNL_Loss(focal_x=cfg.DATASET.FOCAL_X, focal_y=cfg.DATASET.FOCAL_Y, input_size=cfg.DATASET.CROP_SIZE)
         # self.rd_loss = RD_loss(30)
         # self.rd_loss=RD_loss2()
         # self.rd_loss=RD_loss4(4)
         # self.rd_loss=RD_loss3()
         # self.rd_loss=RD_loss5()
-        self.rd_loss=RD_loss6()
+        # self.rd_loss=RD_loss6(sample_count=3000)
+        self.rd_loss=RD_loss7(span=30)
 
     def criterion(self, pred_softmax, pred_logit, data, epoch):
         pred_depth = bins_to_depth(pred_softmax)
         loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
-        loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
+        # loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
         rd_loss=self.rd_loss(pred_depth,data['B'].cuda())
 
         loss = {}
         loss['metric_loss'] = loss_metric*2
-        loss['virtual_normal_loss'] = cfg.MODEL.DIFF_LOSS_WEIGHT * loss_normal
-        loss['rd_loss']=rd_loss*10
+        # loss['virtual_normal_loss'] = cfg.MODEL.DIFF_LOSS_WEIGHT * loss_normal
+        loss['rd_loss']=rd_loss*20
 
         # loss['total_loss'] = loss['metric_loss']
         # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']
-        loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
+        # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
+        loss['total_loss'] = loss['metric_loss'] + loss['rd_loss']
+
 
         return loss
 

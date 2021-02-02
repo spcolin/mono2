@@ -1,6 +1,6 @@
 import os
 
-path = "E:/comp/rd/"
+path = "E:/comp/metricvnlrd/"
 file_list = os.listdir(path)
 
 
@@ -17,7 +17,7 @@ def best():
     logRms = 10.0
 
     for i in file_list:
-        if i.startswith("with"):
+        # if i.startswith("with"):
             file_path = path + i
             f=open(file_path)
 
@@ -79,7 +79,7 @@ def avg():
     logRms =0
 
     for i in file_list:
-        if i.startswith("with"):
+        # if i.startswith("with"):
             file_path = path + i
             print(file_path)
 
