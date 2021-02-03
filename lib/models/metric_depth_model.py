@@ -14,6 +14,8 @@ from lib.models.RD_loss4 import RD_loss4
 from lib.models.RD_loss5 import RD_loss5
 from lib.models.RD_loss6 import RD_loss6
 from lib.models.RD_loss7 import RD_loss7
+from lib.models.RD_loss8 import RD_loss8
+from lib.models.RD_loss9 import RD_loss9
 
 
 class MetricDepthModel(nn.Module):
@@ -73,13 +75,20 @@ class ModelLoss(object):
         # self.rd_loss=RD_loss3()
         # self.rd_loss=RD_loss5()
         # self.rd_loss=RD_loss6(sample_count=3000)
-        self.rd_loss=RD_loss7(span=30)
+        # self.rd_loss=RD_loss7(span=50)
+        # self.rd_loss=RD_loss8()
+        # self.rd_loss=RD_loss7(span=30)
+        self.rd_loss=RD_loss9(repeat=90)
+
+
 
     def criterion(self, pred_softmax, pred_logit, data, epoch):
         pred_depth = bins_to_depth(pred_softmax)
         loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
         # loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
         rd_loss=self.rd_loss(pred_depth,data['B'].cuda())
+
+
 
         loss = {}
         loss['metric_loss'] = loss_metric*2

@@ -7,9 +7,10 @@ import numpy as np
 
 class RD_loss7(nn.Module):
 
-    def __init__(self,span=30):
+    def __init__(self,span=30,repeat=5):
         super(RD_loss7, self).__init__()
         self.span=span
+        self.repeat=repeat
 
 
     def sub_block(self,tensor,pos):
@@ -96,7 +97,9 @@ class RD_loss7(nn.Module):
 
         loss_fn=torch.nn.L1Loss(reduction='mean')
 
-        loss=loss_fn(pred_rd,gt_rd)
+        loss = loss_fn(pred_rd, gt_rd)
+
+
 
         return loss
 
