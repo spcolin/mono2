@@ -11,6 +11,7 @@ from lib.models.RD_loss9 import RD_loss9
 from lib.models.refine_module import Refine_module
 from lib.models.refine_loss import Refine_loss
 from lib.models.refine_module2 import Refine_module2
+from lib.models.refine_module3 import Refine_module3
 
 
 
@@ -21,8 +22,7 @@ class MetricDepthModel(nn.Module):
         self.depth_model = DepthModel()
 
         pretrained_path = "E:/pretrained/resnet50-19c8e357.pth"
-        self.refine_model=Refine_module2(pretrained_resnet50_path=pretrained_path)
-
+        self.refine_model=Refine_module3(pretrained_resnet50_path=pretrained_path)
 
 
     def forward(self, data):
