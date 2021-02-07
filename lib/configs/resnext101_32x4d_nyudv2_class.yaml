@@ -27,7 +27,7 @@ DATASET:
   # Minimum depth after data augmentation
   DEPTH_MIN: 0.01
   # Maximum depth
-  DEPTH_MAX: 1.7
+  DEPTH_MAX: 1.0
   FOCAL_Y: 519.0
   FOCAL_X: 519.0
 

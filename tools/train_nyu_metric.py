@@ -45,7 +45,7 @@ def train(train_dataloader, model, epoch, loss_func,
         scheduler.step()  # decay lr every iteration
         training_stats.IterTic()
         out = model(data)
-        losses = loss_func.criterion(out['b_fake_softmax'], out['b_fake_logit'], data, epoch)
+        losses = loss_func.criterion(out['b_fake_softmax'], out['b_fake_logit'],out['refined_depth'], data, epoch)
         optimizer.optim(losses)
         step = base_steps + i + 1
         training_stats.UpdateIterStats(losses)
@@ -89,9 +89,6 @@ if __name__=='__main__':
     np.random.seed(20)
     random.seed(20)
     # torch.backends.cudnn.deterministic = True
-
-
-
 
     # Train args
     train_opt = TrainOptions()
@@ -144,6 +141,7 @@ if __name__=='__main__':
         logger.info('{:>15}: {:<30}'.format('total_iterations', total_iters))
         model.cuda()
 
+
     optimizer = ModelOptimizer(model)
     loss_func = ModelLoss()
 
@@ -164,7 +162,7 @@ if __name__=='__main__':
         for epoch in range(train_args.start_epoch, train_args.epoch):
             # training
             train(train_dataloader, model, epoch, loss_func, optimizer, scheduler, training_stats,
-                  val_dataloader, val_err, ignore_step)
+                  val_dataloader, val_err,ignore_step)
             ignore_step = -1
 
             # break

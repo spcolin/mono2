@@ -5,7 +5,7 @@ import numpy as np
 
 class RD_loss9(nn.Module):
 
-    def __init__(self, span=30, repeat=20):
+    def __init__(self, span=20, repeat=90):
         super(RD_loss9, self).__init__()
         self.span = span
         self.repeat = repeat
@@ -68,6 +68,7 @@ class RD_loss9(nn.Module):
         gt_rd=torch.cat(gt_rd,1).permute(0,2,3,1)
 
         pred_norm = torch.norm(pred_rd, 2, dim=3, keepdim=True)
+
         gt_norm = torch.norm(gt_rd, 2, dim=3, keepdim=True)
 
         pred_mask = pred_norm == 0

@@ -7,15 +7,11 @@ from lib.models.WCEL_loss import WCEL_Loss
 from lib.models.VNL_loss import VNL_Loss
 from lib.models.image_transfer import bins_to_depth, kitti_merge_imgs
 from lib.core.config import cfg
-from lib.models.RD_loss import RD_loss
-from lib.models.RD_loss2 import RD_loss2
-from lib.models.RD_loss3 import RD_loss3
-from lib.models.RD_loss4 import RD_loss4
-from lib.models.RD_loss5 import RD_loss5
-from lib.models.RD_loss6 import RD_loss6
-from lib.models.RD_loss7 import RD_loss7
-from lib.models.RD_loss8 import RD_loss8
 from lib.models.RD_loss9 import RD_loss9
+from lib.models.refine_module import Refine_module
+from lib.models.refine_loss import Refine_loss
+from lib.models.refine_module2 import Refine_module2
+
 
 
 class MetricDepthModel(nn.Module):
@@ -24,26 +20,44 @@ class MetricDepthModel(nn.Module):
         self.loss_names = ['Weighted_Cross_Entropy', 'Virtual_Normal']
         self.depth_model = DepthModel()
 
+        pretrained_path = "E:/pretrained/resnet50-19c8e357.pth"
+        self.refine_model=Refine_module2(pretrained_resnet50_path=pretrained_path)
+
+
+
     def forward(self, data):
         # Input data is a_real, predicted data is b_fake, groundtruth is b_real
         self.a_real = data['A'].cuda()
         self.b_fake_logit, self.b_fake_softmax = self.depth_model(self.a_real)
-        return {'b_fake_logit': self.b_fake_logit, 'b_fake_softmax': self.b_fake_softmax}
+
+        pred_depth=bins_to_depth(self.b_fake_softmax)
+        refined_depth=self.refine_model(pred_depth,self.a_real)
+
+        return {'b_fake_logit': self.b_fake_logit, 'b_fake_softmax': self.b_fake_softmax,"refined_depth":refined_depth}
 
     def inference(self, data):
+
         with torch.no_grad():
-            out = self.forward(data)
+                out = self.forward(data)['refined_depth'][1]
 
-            if cfg.MODEL.PREDICTION_METHOD == 'classification':
-                pred_depth = bins_to_depth(out['b_fake_softmax'])
-            elif cfg.MODEL.PREDICTION_METHOD == 'regression':
-                # for regression methods
-                pred_depth = torch.nn.functional.sigmoid(out['b_fake_logit'])
-            else:
-                raise ValueError("Unknown prediction methods")
+                return {'b_fake': out}
 
-            out = pred_depth
-            return {'b_fake': out}
+
+
+    # def inference(self, data):
+    #     with torch.no_grad():
+    #         out = self.forward(data)
+    #
+    #         if cfg.MODEL.PREDICTION_METHOD == 'classification':
+    #             pred_depth = bins_to_depth(out['b_fake_softmax'])
+    #         elif cfg.MODEL.PREDICTION_METHOD == 'regression':
+    #             # for regression methods
+    #             pred_depth = torch.nn.functional.sigmoid(out['b_fake_logit'])
+    #         else:
+    #             raise ValueError("Unknown prediction methods")
+    #
+    #         out = pred_depth
+    #         return {'b_fake': out}
 
     def inference_kitti(self, data):
         #crop kitti images into 3 parts
@@ -69,36 +83,29 @@ class ModelLoss(object):
         super(ModelLoss, self).__init__()
         self.weight_cross_entropy_loss = WCEL_Loss()
         # self.virtual_normal_loss = VNL_Loss(focal_x=cfg.DATASET.FOCAL_X, focal_y=cfg.DATASET.FOCAL_Y, input_size=cfg.DATASET.CROP_SIZE)
-        # self.rd_loss = RD_loss(30)
-        # self.rd_loss=RD_loss2()
-        # self.rd_loss=RD_loss4(4)
-        # self.rd_loss=RD_loss3()
-        # self.rd_loss=RD_loss5()
-        # self.rd_loss=RD_loss6(sample_count=3000)
-        # self.rd_loss=RD_loss7(span=50)
-        # self.rd_loss=RD_loss8()
-        # self.rd_loss=RD_loss7(span=30)
-        self.rd_loss=RD_loss9(repeat=90)
 
+        self.refine_loss=Refine_loss()
+        self.rd_loss=RD_loss9()
 
-
-    def criterion(self, pred_softmax, pred_logit, data, epoch):
-        pred_depth = bins_to_depth(pred_softmax)
+    def criterion(self, pred_softmax, pred_logit,refined_depth, data, epoch):
+        # pred_depth = bins_to_depth(pred_softmax)
         loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
         # loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
-        rd_loss=self.rd_loss(pred_depth,data['B'].cuda())
-
-
+        rf_loss=self.refine_loss(refined_depth,data['B'].cuda())
+        rd_loss=self.rd_loss(refined_depth[1],data['B'].cuda())
 
         loss = {}
         loss['metric_loss'] = loss_metric*2
-        # loss['virtual_normal_loss'] = cfg.MODEL.DIFF_LOSS_WEIGHT * loss_normal
-        loss['rd_loss']=rd_loss*20
+        # loss['virtual_normal_loss'] =  loss_normal*cfg.MODEL.DIFF_LOSS_WEIGHT
+        loss['rf_loss']=rf_loss*5
+        loss['rd_loss']=rd_loss*50
+
 
         # loss['total_loss'] = loss['metric_loss']
         # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']
         # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
-        loss['total_loss'] = loss['metric_loss'] + loss['rd_loss']
+        # loss['total_loss'] = loss['metric_loss'] + loss['rd_loss']
+        loss['total_loss'] = loss['metric_loss']+loss['rf_loss']+loss['rd_loss']
 
 
         return loss
@@ -111,6 +118,7 @@ class ModelOptimizer(object):
         encoder_params_names = []
         decoder_params = []
         decoder_params_names = []
+
         nograd_param_names = []
 
         for key, value in dict(model.named_parameters()).items():
@@ -134,8 +142,9 @@ class ModelOptimizer(object):
              'weight_decay': weight_decay},
             {'params': decoder_params,
              'lr': lr_decoder,
-             'weight_decay': weight_decay},
+             'weight_decay': weight_decay}
             ]
+
         # self.optimizer = torch.optim.SGD(net_params, momentum=0.9)
         self.optimizer=torch.optim.AdamW(net_params,betas=(0.9,0.99))
 

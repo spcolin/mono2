@@ -47,8 +47,6 @@ class Residual(torch.nn.Module):
     def load_pretriained_backbone(self,path):
         pretrained_dict=torch.load(path)
         model_dict=self.backbone.state_dict()
-        # print(pretrained_dict.keys())
-        # print(model_dict.keys())
         to_load_dict={k:v for k,v in pretrained_dict.items() if k in model_dict}
         model_dict.update(to_load_dict)
         self.backbone.load_state_dict(model_dict)
@@ -79,8 +77,8 @@ class Residual(torch.nn.Module):
         up = F.interpolate(up,size=(385,385), mode='bilinear', align_corners=True)  #B*16*385*385
         prediction=self.up_layer6(up)   #B*1*385*385
 
-        # scale the depth residual between -0.1 and 0.1
-        prediction=self.predict(prediction)*0.1 #B*1*385*385
+        # scale the depth residual between -0.01 and 0.01
+        prediction=self.predict(prediction)*0.01 #B*1*385*385
 
 
         return prediction
@@ -159,8 +157,8 @@ class Resample(torch.nn.Module):
         # scale need to specify
         prediction=self.predict(prediction) #B*1*385*385
 
-        # the range size for sampling windows is 0 to 20
-        return prediction.permute(0,2,3,1)*20
+        # the range size for sampling windows is 0 to 10
+        return prediction.permute(0,2,3,1)*10
 
 
 class Refine_module(torch.nn.Module):
@@ -176,7 +174,7 @@ class Refine_module(torch.nn.Module):
         theta=theta.expand(batch_size,2,3)
 
         # values between -1 and 1
-        base_grid=torch.nn.functional.affine_grid(theta,size=tensor.shape)
+        base_grid=torch.nn.functional.affine_grid(theta,size=tensor.shape).to(tensor.device)
 
         final_grid=base_grid+grid/385.0
 
@@ -188,18 +186,14 @@ class Refine_module(torch.nn.Module):
     def forward(self,depth_tensor,img_tensor):
 
         residual_input=torch.cat((img_tensor,depth_tensor),1)
-
         res=self.residual_net(residual_input)
-
         compensate_res_depth=depth_tensor+res
 
         resample_input=torch.cat((img_tensor,compensate_res_depth),1)
-
         resample_grid=self.resample_net(resample_input)
-
         resampled_depth=self.sample(resample_grid,compensate_res_depth)
 
-        return resampled_depth
+        return compensate_res_depth,resampled_depth
 
 
 
