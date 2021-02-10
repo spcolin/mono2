@@ -95,8 +95,8 @@ if __name__=='__main__':
     train_args = train_opt.parse()
     # train_opt.print_options(train_args)
 
-    # train_args.load_ckpt="E:/pretrained_model/nyu_rawdata.pth"
-    # train_args.resume=True
+    train_args.load_ckpt="E:/VNL_Monocular_Depth_Prediction-master/tools/outputs/Feb10-19-16-00_DESKTOP-V6VNC56/ckpt/trained.pth"
+    train_args.resume=True
 
 
     # Validation args

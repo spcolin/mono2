@@ -37,7 +37,7 @@ def load_ckpt(args, model, optimizer=None, scheduler=None, val_err=[]):
     if os.path.isfile(args.load_ckpt):
         logger.info("loading checkpoint %s", args.load_ckpt)
         checkpoint = torch.load(args.load_ckpt, map_location=lambda storage, loc: storage, pickle_module=dill)
-        model.load_state_dict(checkpoint['model_state_dict'])
+        model.depth_model.load_state_dict(checkpoint['model_state_dict'])
         # if args.resume:
         #     args.batchsize = checkpoint['batch_size']
         #     args.start_step = checkpoint['step']
@@ -64,7 +64,7 @@ def save_ckpt(args, step, epoch, model, optimizer, scheduler, val_err={}):
         'batch_size': args.batchsize,
         'scheduler': scheduler.state_dict(),
         'val_err': val_err,
-        'model_state_dict': model.state_dict(),
+        'model_state_dict': model.depth_model.state_dict(),
         'optimizer': optimizer.state_dict()},
         save_name, pickle_module=dill)
     logger.info('save model: %s', save_name)

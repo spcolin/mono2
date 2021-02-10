@@ -21,8 +21,8 @@ class MetricDepthModel(nn.Module):
         self.loss_names = ['Weighted_Cross_Entropy', 'Virtual_Normal']
         self.depth_model = DepthModel()
 
-        pretrained_path = "E:/pretrained/resnet50-19c8e357.pth"
-        self.refine_model=Refine_module3(pretrained_resnet50_path=pretrained_path)
+        pretrained_path = "E:/pretrained/resnet18-5c106cde.pth"
+        self.refine_model=Refine_module(pretrained_resnet18_path=pretrained_path)
 
 
     def forward(self, data):
@@ -31,9 +31,10 @@ class MetricDepthModel(nn.Module):
         self.b_fake_logit, self.b_fake_softmax = self.depth_model(self.a_real)
 
         pred_depth=bins_to_depth(self.b_fake_softmax)
-        refined_depth=self.refine_model(pred_depth,self.a_real)
+        refined_depth=self.refine_model(pred_depth.detach(),self.a_real)
 
         return {'b_fake_logit': self.b_fake_logit, 'b_fake_softmax': self.b_fake_softmax,"refined_depth":refined_depth}
+        # return {'b_fake_logit': self.b_fake_logit, 'b_fake_softmax': self.b_fake_softmax}
 
     def inference(self, data):
 
@@ -81,21 +82,20 @@ class MetricDepthModel(nn.Module):
 class ModelLoss(object):
     def __init__(self):
         super(ModelLoss, self).__init__()
-        self.weight_cross_entropy_loss = WCEL_Loss()
+        # self.weight_cross_entropy_loss = WCEL_Loss()
         # self.virtual_normal_loss = VNL_Loss(focal_x=cfg.DATASET.FOCAL_X, focal_y=cfg.DATASET.FOCAL_Y, input_size=cfg.DATASET.CROP_SIZE)
-
         self.refine_loss=Refine_loss()
         self.rd_loss=RD_loss9()
 
-    def criterion(self, pred_softmax, pred_logit,refined_depth, data, epoch):
+    def criterion(self, pred_softmax, pred_logit, refined_depth, data, epoch):
         # pred_depth = bins_to_depth(pred_softmax)
-        loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
+        # loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
         # loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
         rf_loss=self.refine_loss(refined_depth,data['B'].cuda())
         rd_loss=self.rd_loss(refined_depth[1],data['B'].cuda())
 
         loss = {}
-        loss['metric_loss'] = loss_metric*2
+        # loss['metric_loss'] = loss_metric*2
         # loss['virtual_normal_loss'] =  loss_normal*cfg.MODEL.DIFF_LOSS_WEIGHT
         loss['rf_loss']=rf_loss*5
         loss['rd_loss']=rd_loss*50
@@ -105,42 +105,84 @@ class ModelLoss(object):
         # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']
         # loss['total_loss'] = loss['metric_loss'] + loss['virtual_normal_loss']+loss['rd_loss']
         # loss['total_loss'] = loss['metric_loss'] + loss['rd_loss']
-        loss['total_loss'] = loss['metric_loss']+loss['rf_loss']+loss['rd_loss']
+        loss['total_loss'] = loss['rf_loss']+loss['rd_loss']
 
 
         return loss
 
 
+# class ModelOptimizer(object):
+#     def __init__(self, model):
+#         super(ModelOptimizer, self).__init__()
+#         encoder_params = []
+#         encoder_params_names = []
+#         decoder_params = []
+#         decoder_params_names = []
+#
+#         nograd_param_names = []
+#
+#         # print("-"*20)
+#         for key, value in dict(model.named_parameters()).items():
+#             # print(key)
+#             if value.requires_grad:
+#                 if 'res' in key:
+#                     encoder_params.append(value)
+#                     encoder_params_names.append(key)
+#                 else:
+#                     decoder_params.append(value)
+#                     decoder_params_names.append(key)
+#             else:
+#                 nograd_param_names.append(key)
+#         # print("*"*20)
+#
+#         lr_encoder = cfg.TRAIN.BASE_LR
+#         lr_decoder = cfg.TRAIN.BASE_LR * cfg.TRAIN.SCALE_DECODER_LR
+#         weight_decay = 0.0005
+#
+#         net_params = [
+#             {'params': encoder_params,
+#              'lr': lr_encoder,
+#              'weight_decay': weight_decay},
+#             {'params': decoder_params,
+#              'lr': lr_decoder,
+#              'weight_decay': weight_decay}
+#             ]
+#
+#         # self.optimizer = torch.optim.SGD(net_params, momentum=0.9)
+#         self.optimizer=torch.optim.AdamW(net_params,betas=(0.9,0.99))
+#
+#
+#     def optim(self, loss):
+#         self.optimizer.zero_grad()
+#         loss_all = loss['total_loss']
+#         loss_all.backward()
+#         self.optimizer.step()
+
+
 class ModelOptimizer(object):
     def __init__(self, model):
         super(ModelOptimizer, self).__init__()
-        encoder_params = []
-        encoder_params_names = []
-        decoder_params = []
-        decoder_params_names = []
+
+        rf_params=[]
+        rf_params_names=[]
 
         nograd_param_names = []
 
         for key, value in dict(model.named_parameters()).items():
             if value.requires_grad:
-                if 'res' in key:
-                    encoder_params.append(value)
-                    encoder_params_names.append(key)
-                else:
-                    decoder_params.append(value)
-                    decoder_params_names.append(key)
-            else:
-                nograd_param_names.append(key)
+               if "refine" in key:
+                    rf_params.append(value)
+                    rf_params_names.append(key)
+            # else:
+            #     nograd_param_names.append(key)
+
 
         lr_encoder = cfg.TRAIN.BASE_LR
         lr_decoder = cfg.TRAIN.BASE_LR * cfg.TRAIN.SCALE_DECODER_LR
         weight_decay = 0.0005
 
         net_params = [
-            {'params': encoder_params,
-             'lr': lr_encoder,
-             'weight_decay': weight_decay},
-            {'params': decoder_params,
+            {'params': rf_params,
              'lr': lr_decoder,
              'weight_decay': weight_decay}
             ]
@@ -154,6 +196,8 @@ class ModelOptimizer(object):
         loss_all = loss['total_loss']
         loss_all.backward()
         self.optimizer.step()
+
+
 
 
 class DepthModel(nn.Module):

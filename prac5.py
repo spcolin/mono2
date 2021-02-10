@@ -1,6 +1,6 @@
 import os
 
-path = "E:/comp/metricvnlrd/"
+path = "E:/cmp/rd/"
 file_list = os.listdir(path)
 
 
@@ -114,12 +114,12 @@ def avg():
 
     f2=open(path+"avgall.txt","w")
 
-    f2.write("absREL:"+str(absREL/len(file_list)/7)+"\n")
-    f2.write("silog:"+str(silog/len(file_list)/7)+"\n")
-    f2.write("log10:"+str(log10/len(file_list)/7)+"\n")
-    f2.write("RMS:"+str(RMS/len(file_list)/7)+"\n")
-    f2.write("squaRel:"+str(squaRel/len(file_list)/7)+"\n")
-    f2.write("logRms:"+str(logRms/len(file_list)/7)+"\n")
+    f2.write("absREL:"+str(absREL/len(file_list)/14)+"\n")
+    f2.write("silog:"+str(silog/len(file_list)/14)+"\n")
+    f2.write("log10:"+str(log10/len(file_list)/14)+"\n")
+    f2.write("RMS:"+str(RMS/len(file_list)/14)+"\n")
+    f2.write("squaRel:"+str(squaRel/len(file_list)/14)+"\n")
+    f2.write("logRms:"+str(logRms/len(file_list)/14)+"\n")
 
 
     f2.close()
