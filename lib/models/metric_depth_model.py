@@ -10,19 +10,20 @@ from lib.core.config import cfg
 from lib.models.RD_loss9 import RD_loss9
 from lib.models.refine_module import Refine_module
 from lib.models.refine_loss import Refine_loss
-from lib.models.refine_module2 import Refine_module2
-from lib.models.refine_module3 import Refine_module3
+from lib.models.refine_module4 import Refine_module4
+from lib.models.refine_loss2 import Refine_loss2
 
 
 
 class MetricDepthModel(nn.Module):
+
     def __init__(self):
         super(MetricDepthModel, self).__init__()
         self.loss_names = ['Weighted_Cross_Entropy', 'Virtual_Normal']
         self.depth_model = DepthModel()
 
         pretrained_path = "E:/pretrained/resnet18-5c106cde.pth"
-        self.refine_model=Refine_module(pretrained_resnet18_path=pretrained_path)
+        self.refine_model=Refine_module4(pretrained_resnet18_path=pretrained_path)
 
 
     def forward(self, data):
@@ -84,7 +85,7 @@ class ModelLoss(object):
         super(ModelLoss, self).__init__()
         # self.weight_cross_entropy_loss = WCEL_Loss()
         # self.virtual_normal_loss = VNL_Loss(focal_x=cfg.DATASET.FOCAL_X, focal_y=cfg.DATASET.FOCAL_Y, input_size=cfg.DATASET.CROP_SIZE)
-        self.refine_loss=Refine_loss()
+        self.refine_loss=Refine_loss2()
         self.rd_loss=RD_loss9()
 
     def criterion(self, pred_softmax, pred_logit, refined_depth, data, epoch):
@@ -92,7 +93,7 @@ class ModelLoss(object):
         # loss_metric = self.weight_cross_entropy_loss(pred_logit, data['B_bins'], data['B'].cuda())
         # loss_normal = self.virtual_normal_loss(data['B'].cuda(), pred_depth)
         rf_loss=self.refine_loss(refined_depth,data['B'].cuda())
-        rd_loss=self.rd_loss(refined_depth[1],data['B'].cuda())
+        rd_loss=self.rd_loss(refined_depth,data['B'].cuda())
 
         loss = {}
         # loss['metric_loss'] = loss_metric*2

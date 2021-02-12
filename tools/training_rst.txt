@@ -830,3 +830,19 @@
 		loss: 7.005,    time: 0.521468,    eta: 0:00:20
 		rf_loss: 5.271, 		rd_loss: 1.710, 		abs_rel: 0.038898, 
 		group0_lr: 0.000007, 
+[Step 770/800] [Epoch 19/20]  [nyudv2]
+		loss: 6.880,    time: 0.521501,    eta: 0:00:15
+		rf_loss: 5.125, 		rd_loss: 1.629, 		abs_rel: 0.038898, 
+		group0_lr: 0.000005, 
+[Step 780/800] [Epoch 19/20]  [nyudv2]
+		loss: 6.995,    time: 0.521557,    eta: 0:00:10
+		rf_loss: 5.138, 		rd_loss: 1.683, 		abs_rel: 0.038898, 
+		group0_lr: 0.000004, 
+[Step 790/800] [Epoch 19/20]  [nyudv2]
+		loss: 7.401,    time: 0.521595,    eta: 0:00:05
+		rf_loss: 5.674, 		rd_loss: 1.765, 		abs_rel: 0.038898, 
+		group0_lr: 0.000002, 
+[Step 800/800] [Epoch 19/20]  [nyudv2]
+		loss: 7.516,    time: 0.521641,    eta: 0:00:00
+		rf_loss: 5.818, 		rd_loss: 1.765, 		abs_rel: 0.038898, 
+		group0_lr: 0.000000, 

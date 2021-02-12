@@ -9,7 +9,7 @@ MODEL:
 
   # Configure the decoder
   FCN_DIM_IN: [512, 256, 256, 256, 256, 256]
-  FCN_DIM_OUT: [256, 256, 256, 256, 256]
+  FCN_DIM_OUT: [256, 256, 256, 256, 256]0
   LATERAL_OUT: [512, 256, 256, 256]
   # Configure input and output channel of the model
   ENCODRE_INPUT_C: 3
