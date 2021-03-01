@@ -1,5 +1,30 @@
 import torch,torchvision,collections
 import torch.nn.functional as F
+import numpy as np
+
+
+def get_mask(image_tensor):
+
+    tensor_shape = image_tensor.shape
+
+    grad_x = image_tensor[:, :, :, 1:] - image_tensor[:, :, :, :-1]
+    grad_y = image_tensor[:, :, 1:] - image_tensor[:, :, :-1]
+
+    grad_x = torch.nn.functional.interpolate(grad_x, [tensor_shape[2], tensor_shape[3]], mode='bilinear')
+    grad_y = torch.nn.functional.interpolate(grad_y, [tensor_shape[2], tensor_shape[3]], mode='bilinear')
+
+    x_mean = grad_x.mean()
+    x_mask = grad_x.mean(dim=1, keepdim=True) > x_mean
+
+    y_mean = grad_y.mean()
+    y_mask = grad_y.mean(dim=1, keepdim=True) > y_mean
+
+    mask = x_mask * y_mask
+
+    return mask.clone().detach()
+
+
+
 
 def conv_layer(in_channels,out_channels,kernel_size=3,stride=1,padding=1):
 
@@ -185,13 +210,16 @@ class Refine_module(torch.nn.Module):
 
     def forward(self,depth_tensor,img_tensor):
 
+        mask=get_mask(img_tensor)
+        print(mask.shape)
+
         residual_input=torch.cat((img_tensor,depth_tensor),1)
         res=self.residual_net(residual_input)
-        compensate_res_depth=depth_tensor+res
+        compensate_res_depth=depth_tensor+res*mask
 
         resample_input=torch.cat((img_tensor,compensate_res_depth),1)
         resample_grid=self.resample_net(resample_input)
-        resampled_depth=self.sample(resample_grid,compensate_res_depth)
+        resampled_depth=self.sample(resample_grid*(torch.stack([mask.squeeze(1),mask.squeeze(1)],3)),compensate_res_depth)
 
         return compensate_res_depth,resampled_depth
 
